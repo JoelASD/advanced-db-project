@@ -2,6 +2,8 @@
 
 * Joel Aalto, Samson Azizyan, Jaber Askari
 
+The goal is to create the database for the tempalte of the online store,
+that can be personalized in the future for various types of products / services.
 
 # Requirements
 
