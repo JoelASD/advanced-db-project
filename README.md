@@ -1,8 +1,13 @@
 # Advanced Databases Project: Online Store
 
+* Joel Aalto, Samson Azizyan, Jaber Askari
+
+
 # Requirements
 
 ## Functional Requirements
+
+### The links dont work yet
 
 | Code | Requirement | Priority |
 | :-: | :-: | :-: |
@@ -34,14 +39,15 @@
 
 ## Ei-toiminnallisia suorituskykyvaatimuksia
 
-| VaatimusID | Kuvaus | Ominaisuus johon vaikuttaa |								
+| Code | Requirement | Priority |								
 |:-:|:-:|:-:|
-| SYSTEM-REQ-0001 | Palvelun pitää pystyä käyttämään käyttäjän sijaintia |FT02, FT04|
-| SYSTEM-REQ-0002 | Palvelun pitää pystyä käyttämään päätelaitteen kameraa |FT04|
-| USAGE-REQ-0001 | Kirjatumispalvelulla on oltava itsenäinen kolmannen osapuolen toimittama varmistusjärjestelmä | [FT01](liitteet/f1_login.md) |
-| USAGE-REQ-0002 | Palvelun pitää olla tarjolla eri alustoilla ||
-| SEC-REQ-0001 | Kirjatumispalvelulla on oltava google authenticator | [FT01](liitteet/f1_login.md) |
-| SEC-REQ-0002 | Tietokannan tulee olemaan suojattuna suoajausalgoritmilla ||
+| NFR01 | Personal data logging | Medium |
+| NFR02 | Product browse history | Medium |
+| NFR03 | Database management roles | High |
+| NFR04 | Database backups | High |
+| NFR05 | Prepared statements in the server side | High |
+| NFR06 | Generating reports | Low |
+| NFR07 | Responsive database (indexing ?) | High |
 
 # Conceptual Data Model
 
