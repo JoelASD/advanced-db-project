@@ -35,7 +35,7 @@
 ## Ei-toiminnallisia suorituskykyvaatimuksia
 
 | VaatimusID | Kuvaus | Ominaisuus johon vaikuttaa |								
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 | SYSTEM-REQ-0001 | Palvelun pitää pystyä käyttämään käyttäjän sijaintia |FT02, FT04|
 | SYSTEM-REQ-0002 | Palvelun pitää pystyä käyttämään päätelaitteen kameraa |FT04|
 | USAGE-REQ-0001 | Kirjatumispalvelulla on oltava itsenäinen kolmannen osapuolen toimittama varmistusjärjestelmä | [FT01](liitteet/f1_login.md) |
