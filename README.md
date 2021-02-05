@@ -39,8 +39,6 @@ that can be personalized in the future for various types of products / services.
 
 ## Non Functional Requirements
 
-## Ei-toiminnallisia suorituskykyvaatimuksia
-
 | Code | Requirement | Priority |								
 |:-:|:-:|:-:|
 | NFR01 | Personal data logging | Medium |
