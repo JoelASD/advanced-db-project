@@ -32,10 +32,16 @@
 
 ## Non Functional Requirements
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+## Ei-toiminnallisia suorituskykyvaatimuksia
+
+| VaatimusID | Kuvaus | Ominaisuus johon vaikuttaa |								
+|:-:|:-:|:-:|:-:|
+| SYSTEM-REQ-0001 | Palvelun pitää pystyä käyttämään käyttäjän sijaintia |FT02, FT04|
+| SYSTEM-REQ-0002 | Palvelun pitää pystyä käyttämään päätelaitteen kameraa |FT04|
+| USAGE-REQ-0001 | Kirjatumispalvelulla on oltava itsenäinen kolmannen osapuolen toimittama varmistusjärjestelmä | [FT01](liitteet/f1_login.md) |
+| USAGE-REQ-0002 | Palvelun pitää olla tarjolla eri alustoilla ||
+| SEC-REQ-0001 | Kirjatumispalvelulla on oltava google authenticator | [FT01](liitteet/f1_login.md) |
+| SEC-REQ-0002 | Tietokannan tulee olemaan suojattuna suoajausalgoritmilla ||
 
 # Conceptual Data Model
 
