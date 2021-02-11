@@ -2,7 +2,7 @@
 
 * Joel Aalto, Samson Azizyan, Jaber Askari
 
-The goal is to create the database for the tempalte of the online store,
+The goal is to create the database for the tempalate of the online store,
 that can be personalized in the future for various types of products / services.
 
 # Requirements
@@ -54,6 +54,11 @@ that can be personalized in the future for various types of products / services.
 ## Simple Version
 
 ![Simple Conceptual Data Model](./images/simple_cdm.JPG)
+
+* Customer can have multiple orders over time
+* In single order there must be at least one product
+* The QA concept has a many to many relationship to itself, because comments can have comments
+* The QA also connects to the customer and the product tables, because the comment can be about product
 
 ## Whole Version
 
