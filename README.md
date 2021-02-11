@@ -60,8 +60,14 @@ that can be personalized in the future for various types of products / services.
 * The QA concept has a many to many relationship to itself, because comments can have comments
 * The QA also connects to the customer and the product tables, because the comment can be about product
 
-## Whole Version
+## Full Version
+
+### Version 1
 
 ![Conceptual Data Model](./images/cdm.JPG)
+
+### Version 2
+
+![Conceptual Data Model](./images/cdm_v2.JPG)
 
 # Logical Data Model
