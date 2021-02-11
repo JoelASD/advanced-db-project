@@ -53,7 +53,7 @@ that can be personalized in the future for various types of products / services.
 
 ## Simple Version
 
-![Simple Conceptual Data Model](./images/simple-cdm.JPG)
+![Simple Conceptual Data Model](./images/simple_cdm.JPG)
 
 ## Whole Version
 
