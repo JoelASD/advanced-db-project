@@ -51,6 +51,12 @@ that can be personalized in the future for various types of products / services.
 
 # Conceptual Data Model
 
+## Simple Version
+
+![Simple Conceptual Data Model](./images/simple-cdm.JPG)
+
+## Whole Version
+
 ![Conceptual Data Model](./images/cdm.JPG)
 
 # Logical Data Model
