@@ -62,6 +62,25 @@ that can be personalized in the future for various types of products / services.
 
 ## Full Version
 
+## Database Management Plan
+
+### Creating backups (how, when, where, by whom)
+Daily backups at 00:00  to the separate virtual instance through ssh.
+
+### Partitioning, disk usage
+
+### DB optimization (creating indexes etc.)
+* Create indexes for the product and the order tables.
+* Use transactions for the payment tables
+* Create some triggers (review stars amount)
+
+### Maintenance of database
+
+### Users, user roles and their rights
+### Other database administrator (DBA) tasks/duties
+
+## Physical Design Model
+
 ### Version 1
 
 ![Conceptual Data Model](./images/cdm.JPG)
