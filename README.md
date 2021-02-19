@@ -62,6 +62,18 @@ that can be personalized in the future for various types of products / services.
 
 ## Full Version
 
+### Version 1
+
+![Conceptual Data Model](./images/cdm.JPG)
+
+### Version 2
+
+![Conceptual Data Model](./images/cdm_v2.JPG)
+
+# Logical Data Model
+
+## Physical Design Model
+
 ## Database Management Plan
 
 ### Creating backups (how, when, where, by whom)
@@ -93,15 +105,3 @@ Over time the database will go through a lot of changes, every change can corrup
 ### Users, user roles and their rights
 * Database Administrator
 * Backend Developer
-
-## Physical Design Model
-
-### Version 1
-
-![Conceptual Data Model](./images/cdm.JPG)
-
-### Version 2
-
-![Conceptual Data Model](./images/cdm_v2.JPG)
-
-# Logical Data Model
