@@ -67,17 +67,32 @@ that can be personalized in the future for various types of products / services.
 ### Creating backups (how, when, where, by whom)
 Daily backups at 00:00  to the separate virtual instance through ssh.
 
-### Partitioning, disk usage
+### Partitioning, disk usage *
+Partition the order table by years ?
 
 ### DB optimization (creating indexes etc.)
-* Create indexes for the product and the order tables.
-* Use transactions for the payment tables
+* Create indexes for the most frequently used tables
+* Use transactions for the payment process and adding products to the basket
 * Create some triggers (review stars amount)
 
 ### Maintenance of database
 
+**Index defragmentation:**
+In order to fix fragmentation, our maintenance plan would evaluate each index for its size, use, and fragmentation level and will either perform a INDEX_REORGANIZE, an INDEX_REBUILD_ONLINE, or even an INDEX_REBUILD_OFFLINE depending how bad the index is.
+
+**Log file maintenance:**
+SQL databases contain a log file, that stores all the transactions made in the database. With this log file you can restore the database to its previous state.
+
+**Data compaction:**
+Data compaction reorganizes the data the way that the data from the same table would be located closer together.
+
+**Integrity check:**
+Over time the database will go through a lot of changes, every change can corrupt the database. The integrity check examines and analyses the whole database and can repair all the corruptions.
+
+
 ### Users, user roles and their rights
-### Other database administrator (DBA) tasks/duties
+* Database Administrator
+* Backend Developer
 
 ## Physical Design Model
 
