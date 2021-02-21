@@ -70,9 +70,9 @@ that can be personalized in the future for various types of products / services.
 
 ![Conceptual Data Model](./images/cdm_v2.JPG)
 
-# Logical Data Model
+# Physical Design Model
 
-## Physical Design Model
+![Physical Data Model](./images/pdm.JPG)
 
 ## Database Management Plan
 
