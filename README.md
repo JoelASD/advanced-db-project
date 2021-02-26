@@ -98,7 +98,12 @@ Partition the order table by years ?
 In order to fix fragmentation, our maintenance plan would evaluate each index for its size, use, and fragmentation level and will either perform a INDEX_REORGANIZE, an INDEX_REBUILD_ONLINE, or even an INDEX_REBUILD_OFFLINE depending how bad the index is.
 
 **Log file maintenance:**
-SQL databases contain a log file, that stores all the transactions made in the database. With this log file you can restore the database to its previous state.
+MariaDB has the option to log everything on the server by using the general log file.
+At the end of the database creation query we added two commands:
+```sql
+SET GLOBAL general_log=1; --Enabling logging
+SET GLOBAL general_log_file='online-store.log'; --Renaming the log file
+```
 
 **Data compaction:**
 Data compaction reorganizes the data the way that the data from the same table would be located closer together.
