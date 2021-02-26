@@ -75,6 +75,8 @@ that can be personalized in the future for various types of products / services.
 ![Physical Data Model](./images/pdm.JPG)
 
 ## Version 2
+[Creation Query](./pages/creation_query.md)
+
 ![Physical Data Model](./images/pdm_v2.JPG)
 
 ## Database Management Plan
