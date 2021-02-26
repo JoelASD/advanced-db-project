@@ -71,8 +71,11 @@ that can be personalized in the future for various types of products / services.
 ![Conceptual Data Model](./images/cdm_v2.JPG)
 
 # Physical Design Model
-
+## Version 1
 ![Physical Data Model](./images/pdm.JPG)
+
+## Version 2
+![Physical Data Model](./images/pdm_v2.JPG)
 
 ## Database Management Plan
 
