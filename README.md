@@ -99,7 +99,7 @@ In order to fix fragmentation, our maintenance plan would evaluate each index fo
 
 **Log file maintenance:**
 MariaDB has the option to log everything on the server by using the general log file.
-At the end of the database creation query we added two commands:
+At the end of [the database creation query](pages/creation_query.md) we added two commands:
 ```sql
 SET GLOBAL general_log=1; --Enabling logging
 SET GLOBAL general_log_file='online-store.log'; --Renaming the log file
