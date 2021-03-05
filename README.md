@@ -79,6 +79,13 @@ that can be personalized in the future for various types of products / services.
 
 ![Physical Data Model](./images/pdm_v2.JPG)
 
+### Metadata
+
+| Table |
+| :-: |
+| [ UserAccount ](./pages/UserAccount.md) |
+| [ Contract ](./pages/Contract.md) |
+
 ## Database Management Plan
 
 ### Creating backups (how, when, where, by whom)
