@@ -79,12 +79,16 @@ that can be personalized in the future for various types of products / services.
 
 ![Physical Data Model](./images/pdm_v2.JPG)
 
-### Metadata
+## Metadata
 
 | Table |
 | :-: |
 | [ UserAccount ](./pages/UserAccount.md) |
 | [ Contract ](./pages/Contract.md) |
+| [ PhoneNumber ](./pages/PhoneNumber.md) |
+| [ Address, ZipCode, City, Country ](./pages/AZCC.md) |
+| [ Session ](./pages/Session.md) |
+| [ Timestamps ](./pages/timestamps.md) |
 
 ## Database Management Plan
 
