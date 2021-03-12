@@ -91,7 +91,29 @@ that can be personalized in the future for various types of products / services.
 | [ Timestamps ](./pages/timestamps.md) |
 
 ## Database Management Plan
+## indexing
 
+To have a more efficient database we decided to create indexes for Product, Order and UserAccount tables. Indexes will help us to retrieve data from 
+database quickly. 
+
+Index for Product: 
+
+```sql
+SELECT ProductTitle, Price, ProductCategoryID FROM Product Where ProductCategoryID=1 ORDER BY ProductTitle;
+CREATE INDEX index_product ON Product (ProductTitle, ProductCategoryID, Price);
+```
+
+Index for Order: 
+
+```sql
+SELECT OrderStatus, PaymentMethodID, BasketID FROM Order Where OrderStatus="completed";
+CREATE INDEX index_Order ON Order (OrderStatus, PaymentMethodID, BasketID);
+```
+Index for UserAccount: 
+```sql
+SELECT FirstName, LastName, Email FROM UserAccount Where LastName="admin" ORDER BY FirstName;
+CREATE INDEX index_UserAccount ON UserAccount (FirstName, LastName, Email);
+```
 ### Creating backups (how, when, where, by whom)
 Daily backups at 00:00  to the separate virtual instance through ssh.
 
@@ -107,6 +129,9 @@ Partition the order table by years ?
 
 **Index defragmentation:**
 In order to fix fragmentation, our maintenance plan would evaluate each index for its size, use, and fragmentation level and will either perform a INDEX_REORGANIZE, an INDEX_REBUILD_ONLINE, or even an INDEX_REBUILD_OFFLINE depending how bad the index is.
+
+
+
 
 **Log file maintenance:**
 MariaDB has the option to log everything on the server by using the general log file.
