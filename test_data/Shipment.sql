@@ -1,0 +1,10 @@
+insert into Shipment (ShipmentID, ShipmentMethod) values (1, 'Best''s Hygrohypnum Moss');
+insert into Shipment (ShipmentID, ShipmentMethod) values (2, 'Nit Grass');
+insert into Shipment (ShipmentID, ShipmentMethod) values (3, 'Golden Eardrops');
+insert into Shipment (ShipmentID, ShipmentMethod) values (4, 'Acute Blindia Moss');
+insert into Shipment (ShipmentID, ShipmentMethod) values (5, 'Rimmed Lichen');
+insert into Shipment (ShipmentID, ShipmentMethod) values (6, 'Plum');
+insert into Shipment (ShipmentID, ShipmentMethod) values (7, 'Tinypetal Waxweed');
+insert into Shipment (ShipmentID, ShipmentMethod) values (8, 'Loose Watermilfoil');
+insert into Shipment (ShipmentID, ShipmentMethod) values (9, 'Ale');
+insert into Shipment (ShipmentID, ShipmentMethod) values (10, 'Plateado');

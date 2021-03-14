@@ -1,0 +1,1001 @@
+OrderID,OrderStatus,TotalPrice,BasketID,PaymentMethodID,DiscountCodeID,OrderInfo,ShipmentID,EmployeeID
+1,nisl,8898.4,11,23,29,risus auctor,9,496
+2,mauris,271.9,81,14,63,et ultrices,2,176
+3,in,7562.98,26,75,67,vivamus vestibulum,4,557
+4,venenatis,4538.35,323,7,17,ipsum primis,5,518
+5,dui luctus,5539.17,281,88,70,mus etiam,7,858
+6,montes nascetur,2395.28,234,78,26,pede,9,442
+7,in felis,658.16,312,57,19,pede,9,184
+8,quisque,2815.74,253,40,27,non mattis,3,970
+9,ut massa,5745.38,185,13,30,in purus,3,66
+10,congue,9795.31,177,67,15,turpis adipiscing,1,719
+11,est,6993.66,283,2,13,dui maecenas,5,490
+12,pretium,5917.88,210,1,16,suscipit ligula,9,7
+13,duis,3427.98,124,29,11,bibendum felis,8,12
+14,nulla,6780.3,146,53,56,aliquet,10,804
+15,sit,1873.63,145,22,48,pretium,5,184
+16,ante ipsum,8943.24,307,16,12,quam,9,907
+17,fusce,6137.81,261,35,65,enim in,5,241
+18,in felis,5128.95,190,83,57,morbi,10,11
+19,vitae ipsum,6124.49,12,80,39,augue vestibulum,1,435
+20,ac lobortis,7028.84,302,44,43,ante ipsum,4,934
+21,ac,6810.59,237,34,42,enim in,9,948
+22,ac,4908.18,207,35,59,id,9,472
+23,in,8220.56,340,81,20,at nunc,5,589
+24,at nunc,7993.92,307,31,59,in hac,7,807
+25,ipsum primis,4464.91,194,70,20,at,10,678
+26,ante vestibulum,16.55,343,28,10,congue,7,410
+27,volutpat,4409.04,69,47,47,adipiscing,6,349
+28,vulputate luctus,4662.3,185,73,52,nulla justo,10,989
+29,nibh in,6144.58,82,68,11,congue etiam,10,469
+30,integer,8527.81,225,59,46,tincidunt,9,260
+31,consequat,8997.23,290,4,23,quis lectus,8,672
+32,vestibulum velit,4625.01,72,35,13,venenatis,1,475
+33,curae,2179.47,46,49,27,amet,8,722
+34,mattis,8753.3,2,72,15,sapien cursus,10,22
+35,magnis,3248.95,106,90,56,at nibh,3,36
+36,dui vel,8140.83,152,84,35,elementum,2,21
+37,nibh in,8616.89,306,100,63,cubilia curae,3,787
+38,dapibus,9551.57,132,67,23,purus phasellus,3,757
+39,sit,6489.07,141,4,1,augue,7,131
+40,odio,5326.09,289,73,54,eu,5,488
+41,tempus,2410.0,76,52,18,sapien,6,719
+42,vestibulum ante,2402.74,57,20,6,sapien,10,330
+43,tristique,3583.66,271,97,63,tortor,10,576
+44,sit,4921.82,70,25,31,in faucibus,3,73
+45,odio consequat,6786.01,264,60,66,dui,3,160
+46,ante vivamus,8894.05,98,62,64,sapien,6,247
+47,augue luctus,5440.05,91,16,62,primis in,1,722
+48,quis,2156.54,328,56,65,vitae consectetuer,5,12
+49,vestibulum sit,6022.04,315,49,62,libero,4,347
+50,mi nulla,5150.86,14,95,50,lacus,5,301
+51,eget vulputate,8678.71,340,59,5,ut,4,188
+52,lacinia nisi,8002.62,347,98,62,consequat varius,4,780
+53,in,6134.49,143,10,69,faucibus orci,8,21
+54,orci,2240.72,31,50,61,in purus,1,811
+55,ut,757.39,21,2,40,sollicitudin,9,126
+56,ultrices,758.28,188,19,56,molestie,8,284
+57,dictumst morbi,2498.64,43,48,32,morbi ut,2,546
+58,aenean,6081.95,200,36,50,in,9,275
+59,consectetuer eget,6087.8,35,31,35,ut,5,888
+60,tellus nisi,8191.08,20,4,23,porta volutpat,7,590
+61,dapibus at,1977.03,322,89,9,non lectus,9,292
+62,eget orci,9412.95,190,69,10,at velit,7,463
+63,erat quisque,4393.29,344,72,49,aliquam erat,6,176
+64,aliquam convallis,6085.72,329,49,12,interdum,3,413
+65,enim,3457.92,89,5,58,morbi,6,611
+66,porta volutpat,3322.76,266,33,59,quam,10,315
+67,a,171.79,182,20,61,tristique tortor,8,475
+68,volutpat,5800.31,186,51,29,parturient,5,980
+69,viverra,7865.37,338,71,10,eget tempus,1,234
+70,luctus,9645.5,125,90,16,blandit ultrices,9,926
+71,ultrices posuere,9685.35,202,21,41,vivamus vel,10,956
+72,phasellus in,3446.69,140,33,56,porttitor,9,16
+73,auctor,2837.04,292,36,62,pulvinar nulla,1,708
+74,maecenas,964.55,56,29,70,turpis,3,511
+75,eu,6076.02,218,20,37,quisque,6,991
+76,tristique fusce,2615.57,200,17,55,ipsum primis,9,131
+77,natoque,4751.09,25,62,25,ultrices posuere,9,822
+78,nulla,7470.43,277,44,24,vestibulum,3,648
+79,justo,2856.42,120,73,38,nam,4,831
+80,proin risus,2822.5,204,35,20,ante,2,364
+81,nulla ac,8769.4,263,7,50,eleifend,4,564
+82,interdum,5532.5,82,41,60,purus,7,621
+83,ultrices libero,2856.99,213,18,52,augue,5,743
+84,consectetuer,4323.45,43,69,69,est et,10,998
+85,sem sed,9700.25,102,58,51,hendrerit,7,20
+86,fusce consequat,3329.94,340,3,39,ultrices erat,10,297
+87,nec,4251.48,220,18,34,sed,1,990
+88,luctus,4130.97,175,74,66,consequat dui,5,442
+89,justo in,6760.55,82,87,10,venenatis turpis,1,531
+90,vitae,8014.16,8,29,29,ut odio,9,494
+91,libero,8352.09,7,64,31,placerat praesent,1,610
+92,ligula sit,7949.22,38,58,7,hendrerit,2,375
+93,suspendisse,8522.35,212,17,67,est,9,655
+94,dapibus,5303.49,308,13,50,integer,8,601
+95,ligula suspendisse,247.49,349,30,29,aliquet,1,909
+96,libero ut,507.33,273,84,6,pharetra,9,875
+97,rutrum neque,3111.28,166,100,37,hac,2,608
+98,non interdum,7555.56,215,56,27,sit amet,10,327
+99,dui,7455.46,66,41,25,erat volutpat,3,765
+100,amet lobortis,7245.6,308,12,21,vel,9,880
+101,duis bibendum,1598.03,178,14,57,suspendisse,6,13
+102,est,8365.43,178,28,2,velit vivamus,10,247
+103,id,8218.87,350,100,16,sed tristique,1,633
+104,justo in,2586.98,48,42,47,mauris,8,393
+105,mauris laoreet,3195.01,52,39,70,turpis donec,8,168
+106,ut,9803.57,116,59,50,maecenas tincidunt,6,437
+107,gravida sem,1496.68,181,97,42,ultrices,10,409
+108,augue aliquam,9562.6,296,76,50,lobortis,3,95
+109,tortor,5737.68,340,72,22,accumsan tortor,3,168
+110,nullam porttitor,908.95,193,70,34,ridiculus mus,9,989
+111,morbi sem,3854.34,92,91,4,accumsan,8,966
+112,tristique,4828.91,302,27,36,etiam,5,69
+113,purus,9440.29,70,98,59,pede,5,584
+114,elit,2978.17,120,73,9,quisque,2,842
+115,pretium,9376.12,156,21,2,mauris morbi,2,134
+116,pellentesque quisque,2311.88,27,46,10,libero,4,92
+117,proin,8440.8,104,38,2,donec posuere,2,819
+118,vestibulum,9687.11,115,18,57,pede,1,996
+119,amet,4493.04,15,98,41,volutpat,8,552
+120,magna vestibulum,6141.49,79,38,42,congue,7,857
+121,nec nisi,1313.71,120,62,69,sem,7,619
+122,morbi vestibulum,3266.88,94,19,58,hac habitasse,4,238
+123,interdum,5333.21,76,37,37,congue etiam,6,862
+124,integer pede,6709.81,148,71,35,dui vel,1,528
+125,arcu,2424.35,348,95,53,magna,2,673
+126,in,5159.05,181,37,43,ante,9,434
+127,dapibus,4306.99,224,43,26,leo odio,3,71
+128,in porttitor,507.24,126,22,48,vel,9,542
+129,at feugiat,9442.76,161,32,30,morbi,2,899
+130,cursus urna,2841.54,322,2,19,iaculis congue,9,99
+131,primis in,8752.3,165,42,26,ac,1,477
+132,rhoncus,5818.16,251,48,48,erat,2,524
+133,viverra,7482.0,162,16,28,aliquam,5,410
+134,nulla neque,1503.95,343,23,67,praesent,2,406
+135,mattis,3488.39,105,75,32,a nibh,6,310
+136,volutpat sapien,6706.22,187,11,48,suspendisse,5,149
+137,aliquam sit,2134.2,10,89,67,nibh fusce,2,668
+138,congue,2141.42,148,76,44,maecenas,8,506
+139,platea,1136.33,269,77,53,duis,2,612
+140,sapien dignissim,540.66,86,94,39,ut at,7,799
+141,vel,647.27,224,1,17,dui,5,667
+142,scelerisque mauris,9570.9,294,9,64,pulvinar lobortis,1,692
+143,integer,6596.82,299,43,34,non,4,125
+144,metus,510.87,259,61,48,velit nec,8,339
+145,ut,5293.03,260,12,4,posuere,5,894
+146,et,6269.2,4,13,65,nonummy,6,632
+147,faucibus,1439.12,268,44,29,malesuada in,3,328
+148,lorem quisque,6545.88,330,95,37,nisi at,3,960
+149,risus semper,8738.77,305,100,67,ut,1,517
+150,lacus,2453.81,339,31,35,amet diam,4,537
+151,nulla,5978.26,79,69,47,turpis,6,331
+152,in,9257.81,96,80,34,sapien,2,562
+153,pulvinar lobortis,3275.78,274,68,65,purus phasellus,6,319
+154,viverra,1920.79,290,27,38,convallis eget,7,60
+155,consectetuer adipiscing,7163.42,350,72,62,non interdum,2,799
+156,nec,6875.76,32,3,67,leo pellentesque,5,388
+157,neque duis,2435.07,246,84,37,faucibus orci,5,23
+158,in,777.85,176,69,1,tempor turpis,6,208
+159,erat nulla,9803.41,26,48,43,bibendum imperdiet,1,649
+160,lobortis est,9349.04,179,34,30,justo,5,338
+161,at nunc,1276.95,235,28,13,dictumst,5,663
+162,amet,6907.77,118,29,39,justo pellentesque,2,395
+163,nunc,899.02,229,60,4,nec,3,189
+164,pellentesque,8981.71,264,84,48,metus,9,526
+165,rutrum nulla,0.4,209,25,31,morbi,3,669
+166,amet,5492.12,147,27,57,in,5,73
+167,quis,9763.09,20,71,42,mauris,2,406
+168,vel nisl,9233.28,72,92,2,parturient montes,2,543
+169,sed accumsan,8586.26,7,51,34,nec condimentum,1,362
+170,amet diam,8591.35,323,68,53,vel dapibus,7,653
+171,platea,9872.4,280,68,51,turpis eget,4,574
+172,donec diam,940.43,347,94,63,pretium,4,38
+173,posuere,2389.44,55,10,55,nulla eget,5,430
+174,ac,2949.59,349,89,16,vestibulum ac,10,609
+175,vulputate,504.11,347,89,65,mus,7,924
+176,ac,9587.58,47,51,51,donec vitae,1,802
+177,in sagittis,5547.43,297,85,61,convallis,3,355
+178,curae,7606.85,283,28,6,aliquet massa,2,225
+179,aliquam erat,4180.31,105,62,52,mauris,5,93
+180,tempus,6262.61,238,62,27,pharetra magna,1,279
+181,cras,6073.94,42,10,54,libero quis,3,270
+182,quis,7834.35,283,15,39,quis turpis,3,31
+183,pellentesque,1353.13,59,97,21,vulputate nonummy,5,43
+184,mauris lacinia,6032.5,316,30,44,sed,10,525
+185,sapien,4123.72,47,23,15,curabitur gravida,8,249
+186,odio condimentum,7250.29,46,63,34,a feugiat,7,787
+187,luctus et,1123.23,130,65,48,sit,2,914
+188,nam nulla,9151.39,176,32,46,tincidunt,2,822
+189,at,2486.06,230,97,15,blandit,7,872
+190,phasellus in,4111.41,306,75,20,ut,2,914
+191,posuere cubilia,3603.86,313,50,12,ligula,4,809
+192,eu,115.09,317,54,16,justo nec,1,981
+193,ultrices posuere,9119.63,181,96,47,vestibulum proin,7,460
+194,platea,18.71,269,25,66,habitasse,7,105
+195,nisl nunc,2433.98,21,20,23,maecenas,3,124
+196,in purus,6577.07,321,15,13,non,5,361
+197,lectus,4925.89,150,65,67,erat id,7,624
+198,consequat,153.15,108,80,38,in tempor,5,344
+199,sagittis dui,52.5,311,79,41,nisl,6,57
+200,erat,3968.9,3,44,54,posuere felis,3,741
+201,augue,2668.77,174,18,41,primis in,5,827
+202,mauris ullamcorper,5712.28,40,78,14,vel,9,707
+203,in hac,2003.37,58,89,42,magna at,2,153
+204,volutpat,3456.18,5,27,67,justo,2,507
+205,dolor,9837.63,307,52,70,interdum in,8,453
+206,ut nulla,8440.06,204,82,2,blandit mi,6,406
+207,ut erat,5446.87,216,36,70,mauris lacinia,4,380
+208,a,9579.19,163,5,35,consequat,5,258
+209,viverra pede,9863.41,204,34,28,dictumst etiam,8,899
+210,montes,4100.16,258,66,50,libero,8,218
+211,elit,3588.67,233,42,9,porttitor id,6,543
+212,ac neque,2911.83,243,30,19,tellus,5,354
+213,luctus,3557.03,227,76,8,nulla,3,515
+214,ligula nec,6065.91,224,97,14,vel augue,4,877
+215,quam,8716.49,6,34,45,elit,2,792
+216,risus dapibus,9966.15,138,88,65,dapibus,9,647
+217,at,3418.81,147,78,4,eleifend pede,9,988
+218,vestibulum,8858.97,149,67,54,eu,7,653
+219,in,6697.76,262,76,42,nulla,10,452
+220,donec,6910.81,346,13,6,eget,2,714
+221,quam,8827.63,35,66,58,rhoncus dui,2,239
+222,massa id,5370.93,228,41,7,tellus semper,1,655
+223,nulla ultrices,9669.46,59,70,6,congue elementum,6,324
+224,at,7561.04,185,89,68,mus,1,917
+225,eu mi,547.53,90,54,47,in blandit,7,9
+226,morbi porttitor,357.64,320,51,59,eget rutrum,4,651
+227,mi,9180.07,86,61,66,vulputate,3,172
+228,vestibulum ante,4004.05,109,13,40,viverra eget,1,445
+229,posuere cubilia,6680.44,266,77,9,sed tristique,2,101
+230,vel nulla,6150.42,211,1,25,ac diam,3,68
+231,maecenas,1269.83,295,79,38,quis,3,292
+232,magna,3686.34,220,97,24,fusce congue,7,859
+233,dolor,2888.02,126,67,39,at diam,10,247
+234,natoque,5488.94,30,67,41,nulla ultrices,5,932
+235,dolor vel,8993.08,235,47,12,nisi eu,5,440
+236,sed tristique,3940.94,19,34,22,mattis,10,273
+237,erat,8126.0,46,21,67,purus,2,910
+238,aliquet,5644.85,283,91,1,id massa,9,777
+239,donec odio,9134.56,279,33,10,ante nulla,9,243
+240,diam id,525.79,11,43,59,vulputate vitae,4,956
+241,elit proin,84.49,59,97,49,erat,6,301
+242,non pretium,3492.47,337,96,25,dictumst,1,417
+243,nonummy integer,3750.84,52,34,11,donec,2,328
+244,nibh,3328.49,335,87,14,tincidunt,1,961
+245,nulla,6601.65,181,68,12,libero convallis,2,818
+246,ultrices vel,3567.7,274,30,12,nullam,8,432
+247,imperdiet sapien,776.9,76,88,28,sagittis nam,5,342
+248,nulla eget,1926.07,33,79,7,ac,10,359
+249,tortor,701.51,255,15,2,accumsan tortor,1,450
+250,eu mi,1877.85,23,89,38,lectus in,10,230
+251,pede,7390.46,135,50,9,sit,2,874
+252,etiam vel,4347.13,143,59,44,curabitur convallis,10,241
+253,magnis,6318.75,178,25,34,nulla,4,258
+254,consequat,777.61,91,58,5,dui maecenas,10,732
+255,quam,2747.98,249,75,2,sapien a,1,78
+256,id,6366.2,60,78,17,morbi non,4,353
+257,ut erat,4465.18,90,7,18,gravida,10,686
+258,aenean,3563.83,181,78,40,varius integer,5,27
+259,diam,1950.11,152,50,57,vel,3,241
+260,lorem vitae,3106.24,79,2,11,bibendum,5,513
+261,nulla,3344.64,304,59,7,at,1,397
+262,a ipsum,2515.01,78,91,34,primis in,4,598
+263,placerat ante,5191.74,99,97,1,sagittis,1,101
+264,vel sem,8347.22,228,38,5,massa,4,539
+265,vel est,5269.78,29,18,32,risus praesent,9,177
+266,nec nisi,3206.6,245,34,7,elementum,3,789
+267,luctus,2291.44,136,87,18,placerat,5,902
+268,ligula nec,2979.39,225,97,67,pellentesque,1,479
+269,et ultrices,8300.03,124,61,14,id nisl,7,137
+270,quisque porta,9057.33,109,1,5,tempor turpis,6,348
+271,in,6089.06,308,29,2,ut mauris,1,170
+272,pulvinar sed,1043.75,326,70,48,volutpat quam,2,818
+273,etiam faucibus,7946.83,156,48,34,tempor,10,247
+274,a,7604.01,33,46,24,scelerisque mauris,4,202
+275,a,7811.15,147,48,42,pulvinar,1,497
+276,tempus,5444.42,95,4,39,aliquam erat,6,950
+277,ante,9285.5,33,3,68,mauris,10,228
+278,convallis morbi,6805.39,259,12,7,ut,4,633
+279,vel,3896.74,79,48,3,in,2,222
+280,pellentesque ultrices,7448.42,106,78,66,viverra pede,9,374
+281,posuere,8010.37,55,22,3,euismod,2,818
+282,urna,7359.77,121,42,56,libero nam,8,150
+283,odio porttitor,5284.76,4,100,5,diam vitae,3,217
+284,ornare,1759.55,140,5,2,diam in,1,258
+285,volutpat quam,385.72,327,92,9,etiam,5,98
+286,dolor sit,6652.17,349,26,29,proin leo,8,643
+287,molestie,9131.41,108,71,9,vestibulum,3,343
+288,aliquam quis,3343.79,123,52,22,ultrices libero,7,460
+289,primis,2359.76,258,23,35,ac,3,677
+290,luctus,1416.08,306,17,56,id luctus,6,912
+291,et magnis,1946.18,290,3,2,platea,2,693
+292,amet erat,8636.85,90,73,25,eget tempus,9,38
+293,consequat in,7499.57,343,100,52,nec,4,65
+294,sem fusce,7765.49,125,36,53,mauris,2,612
+295,ut,4014.61,253,70,31,a ipsum,7,884
+296,ridiculus,2497.07,112,82,63,nullam,4,35
+297,cubilia,6085.52,129,22,48,posuere nonummy,3,629
+298,aliquam,6720.72,223,92,67,consequat in,7,477
+299,sollicitudin,8832.06,75,46,62,nam,4,231
+300,curabitur,1278.21,87,2,69,pretium,10,335
+301,nibh,2143.83,133,75,55,dapibus at,9,929
+302,mauris vulputate,1516.45,311,87,57,tristique,2,851
+303,eleifend quam,2594.94,42,60,4,augue vestibulum,1,286
+304,augue vestibulum,6429.78,276,67,23,at,7,634
+305,eleifend,5703.72,166,7,18,lorem ipsum,2,285
+306,sed,9123.31,350,94,45,vulputate,8,518
+307,integer ac,1199.36,98,97,19,metus sapien,8,731
+308,a,825.82,50,14,21,viverra diam,6,809
+309,a nibh,2667.49,290,84,48,morbi quis,6,471
+310,lorem,3182.17,75,72,45,nullam molestie,1,729
+311,vestibulum,4867.03,128,27,19,semper,10,781
+312,adipiscing,3937.64,92,42,41,congue vivamus,3,236
+313,neque vestibulum,4360.63,19,95,30,erat volutpat,9,920
+314,in,3819.23,14,41,55,enim leo,2,612
+315,aliquet,9655.25,340,20,41,primis in,9,355
+316,eget semper,556.22,30,1,59,interdum in,4,422
+317,tempor turpis,3484.31,176,82,31,non ligula,2,184
+318,elit sodales,3542.49,211,3,45,eu,4,945
+319,rhoncus,1940.47,129,26,59,velit,2,434
+320,porta,5709.0,174,29,15,vestibulum,4,727
+321,vivamus vel,2838.14,21,56,6,aenean lectus,3,810
+322,orci,869.03,270,68,36,primis in,4,5
+323,porta,4071.41,178,67,7,eros,6,665
+324,integer,9171.05,334,43,59,magnis,9,782
+325,molestie sed,6941.74,303,74,14,faucibus orci,3,600
+326,potenti nullam,8524.9,12,18,64,tristique tortor,5,781
+327,lectus,3688.72,72,6,31,placerat ante,4,274
+328,ultrices,7394.42,86,3,29,cum,7,477
+329,mauris non,7425.45,39,29,3,ullamcorper augue,9,852
+330,sit,5075.0,99,85,13,nulla justo,7,381
+331,vel ipsum,6356.51,234,54,6,cursus,2,800
+332,sed,7731.99,290,21,38,fusce,8,626
+333,nisi at,1529.78,138,28,63,eget,6,246
+334,justo,8358.31,188,62,39,faucibus,7,223
+335,erat volutpat,7185.6,237,51,12,quam pharetra,10,945
+336,tincidunt,5340.79,49,38,54,metus,4,151
+337,diam erat,2916.15,52,11,11,nam nulla,9,150
+338,diam,5952.29,116,28,41,sapien arcu,10,716
+339,in faucibus,2618.15,64,33,67,interdum venenatis,10,137
+340,mauris,6804.49,21,28,51,ac,8,768
+341,integer,6992.14,278,76,67,imperdiet nullam,8,497
+342,lorem quisque,9209.87,212,67,25,nulla nunc,9,249
+343,tellus,5848.34,55,35,67,sit amet,9,274
+344,nullam,404.32,246,35,39,eu interdum,7,418
+345,platea dictumst,5360.37,208,63,16,ridiculus mus,7,805
+346,velit nec,8940.91,181,41,10,consequat,9,881
+347,in lectus,902.24,298,35,3,ultrices,9,216
+348,mauris,190.83,1,31,29,varius,5,27
+349,mauris viverra,7360.9,288,36,44,quam pede,6,877
+350,ligula suspendisse,4755.09,171,89,59,vestibulum,1,394
+351,rutrum,3127.11,103,73,70,ac nulla,3,459
+352,lacus morbi,3886.74,186,83,8,non velit,1,524
+353,ultrices posuere,3651.34,223,89,25,suspendisse,4,250
+354,nascetur,8351.03,310,100,36,libero convallis,7,586
+355,lacinia nisi,6143.26,83,17,46,justo,3,899
+356,vulputate,3831.74,213,10,56,nisl nunc,10,748
+357,at,2493.93,112,81,51,suspendisse,1,4
+358,ac,4519.47,134,25,43,nullam,3,200
+359,luctus,3882.33,6,50,19,nullam,5,549
+360,justo,5150.67,129,39,61,morbi,3,534
+361,pede morbi,304.76,246,100,53,leo,1,555
+362,vestibulum,7486.85,152,16,8,mauris enim,2,622
+363,dolor vel,2286.11,331,32,5,sed magna,1,261
+364,in,9010.33,269,22,4,non,2,894
+365,sed nisl,2584.56,313,41,38,cubilia,1,907
+366,massa volutpat,141.3,270,69,61,in sagittis,9,557
+367,ante ipsum,3455.31,14,44,5,dictumst,8,130
+368,ligula,8193.04,263,92,16,dolor,1,468
+369,suspendisse,9328.93,264,41,56,pharetra magna,10,88
+370,dolor,4977.22,239,74,55,primis,5,13
+371,nec nisi,8484.66,115,1,62,in,10,888
+372,ac nibh,3665.95,346,100,55,in hac,7,930
+373,est,172.77,285,25,47,donec,10,121
+374,semper,5265.4,74,41,69,pellentesque,3,499
+375,fusce,4965.87,248,21,10,urna ut,4,893
+376,cubilia curae,5859.0,336,11,32,posuere,6,965
+377,amet,174.31,204,93,45,dui,4,232
+378,dictumst,3289.09,337,18,30,convallis,10,788
+379,enim,29.0,69,85,21,ipsum,2,226
+380,cubilia curae,8827.25,261,36,49,blandit,10,843
+381,maecenas tincidunt,5082.73,56,66,40,varius nulla,8,922
+382,quis augue,2943.21,111,61,63,dapibus,5,397
+383,nonummy integer,5935.19,149,4,21,luctus et,3,415
+384,massa donec,235.96,53,27,23,etiam,4,389
+385,quisque id,7253.94,100,26,20,quis lectus,10,681
+386,luctus rutrum,919.01,344,58,6,maecenas,4,278
+387,amet,1952.48,271,27,46,odio condimentum,4,361
+388,turpis,8819.48,13,72,57,praesent,7,957
+389,mi integer,5515.43,179,79,2,sit amet,7,947
+390,lorem ipsum,8475.1,236,79,64,nulla dapibus,9,927
+391,fusce lacus,5104.03,57,96,43,adipiscing,6,411
+392,pellentesque ultrices,272.4,220,55,68,habitasse,7,362
+393,mi in,3828.44,147,63,58,eget semper,10,306
+394,in,5346.67,342,55,43,faucibus,7,418
+395,nulla,4202.67,190,17,6,et ultrices,5,210
+396,neque vestibulum,3265.64,205,18,30,turpis adipiscing,3,640
+397,porttitor,7626.64,232,80,30,et ultrices,1,64
+398,vel,5331.92,276,25,56,ipsum,6,191
+399,quam,3124.92,4,20,61,lectus,8,283
+400,rhoncus,5443.77,224,15,38,quisque erat,7,906
+401,turpis,1001.37,120,45,67,vestibulum,9,851
+402,ut nulla,1366.38,287,43,44,in hac,7,230
+403,est,4674.13,321,90,4,ligula,6,447
+404,erat vestibulum,4929.85,190,14,50,rutrum,10,604
+405,ac enim,1015.71,37,70,8,luctus tincidunt,4,241
+406,ligula in,8105.97,1,71,14,turpis,8,314
+407,interdum venenatis,8570.93,316,95,45,tellus in,4,51
+408,platea,128.0,42,72,52,vestibulum,9,162
+409,diam,2704.35,135,46,8,enim blandit,1,396
+410,mauris viverra,321.94,280,35,1,id ornare,9,960
+411,fermentum donec,3158.29,136,62,7,accumsan odio,8,460
+412,odio,6828.51,139,29,51,metus vitae,1,147
+413,viverra dapibus,3741.49,55,63,33,eget rutrum,7,358
+414,id luctus,9509.86,55,41,7,faucibus orci,6,377
+415,porta volutpat,8609.11,119,33,2,libero,2,449
+416,eu,7363.31,91,82,42,elementum,7,328
+417,laoreet,2703.32,47,50,4,quam sollicitudin,5,408
+418,amet justo,1019.55,20,58,54,mauris laoreet,2,703
+419,vulputate,9281.14,266,81,69,accumsan,7,493
+420,risus semper,4313.77,337,40,10,porttitor lacus,7,862
+421,proin,4724.26,287,62,21,duis at,5,107
+422,ullamcorper,1696.32,300,100,60,eget elit,1,750
+423,dictumst maecenas,3405.69,335,33,9,lorem,3,820
+424,imperdiet,1497.76,17,52,5,cubilia curae,2,245
+425,tortor id,1660.24,24,60,63,quis,5,1
+426,enim,5412.06,202,96,22,nulla,6,885
+427,ut,5741.4,60,30,20,libero rutrum,6,274
+428,varius ut,4168.37,197,24,57,placerat,6,325
+429,mattis nibh,8599.23,153,13,44,eu mi,4,204
+430,nec,9141.31,129,24,15,massa,4,710
+431,ultricies,2864.32,215,6,68,in faucibus,1,135
+432,sit amet,7210.02,95,96,68,tempor turpis,5,267
+433,commodo vulputate,6449.56,184,51,8,consectetuer,5,35
+434,lorem,466.67,158,37,8,diam,8,401
+435,eu est,9920.97,348,78,56,cum sociis,8,445
+436,cubilia,4400.97,6,15,39,volutpat,3,661
+437,risus,6426.13,27,18,18,est,9,981
+438,cubilia curae,8097.24,260,60,49,volutpat convallis,4,745
+439,vulputate,9772.19,323,1,56,penatibus,7,949
+440,sit amet,2733.49,22,93,22,rutrum,3,916
+441,felis eu,5115.89,33,70,43,metus arcu,10,86
+442,scelerisque,2591.9,171,20,4,tincidunt,6,572
+443,a nibh,4115.13,294,83,16,lectus in,4,929
+444,amet eleifend,1509.65,187,62,54,pulvinar,2,411
+445,curae,8129.57,241,84,58,sagittis sapien,8,938
+446,duis,2414.6,225,38,12,sapien,8,226
+447,odio consequat,6302.3,14,51,21,platea,4,959
+448,mi,102.62,63,35,39,in quis,10,898
+449,eget eleifend,6062.63,237,6,26,orci,1,952
+450,morbi,8535.57,65,51,46,aenean auctor,6,186
+451,nisi vulputate,6349.98,254,27,63,ac,4,907
+452,augue vestibulum,4131.21,26,17,36,eget congue,3,292
+453,tristique,262.21,348,100,66,turpis integer,2,563
+454,at velit,1769.07,112,99,9,lacinia,6,227
+455,fringilla rhoncus,528.81,224,76,49,in,3,677
+456,turpis sed,578.53,55,30,37,non mauris,1,385
+457,praesent,1949.94,125,38,45,ut,6,817
+458,augue,6054.37,343,46,32,interdum,4,52
+459,morbi porttitor,6222.62,124,44,20,posuere,5,386
+460,nulla,3397.45,288,12,25,et magnis,4,839
+461,sit,9616.42,179,1,42,porta,2,852
+462,quis lectus,3993.12,127,21,61,in,1,217
+463,at dolor,7148.44,204,34,16,non interdum,10,374
+464,mauris lacinia,5827.48,243,30,51,pellentesque,4,115
+465,neque,4391.06,52,57,11,blandit,2,889
+466,sit amet,7596.92,72,76,2,rutrum rutrum,1,364
+467,in imperdiet,217.75,219,91,17,lobortis,7,4
+468,quam,8156.45,289,89,67,justo aliquam,8,636
+469,erat fermentum,6630.62,239,29,9,sit,1,7
+470,ipsum primis,4409.93,89,69,26,nibh,9,736
+471,ut,7778.71,149,87,13,sodales,4,704
+472,convallis morbi,1201.6,29,49,69,ut massa,2,981
+473,et,7036.15,84,38,7,vivamus vel,2,411
+474,fringilla rhoncus,7804.02,332,34,11,accumsan,6,993
+475,phasellus sit,9995.85,245,22,3,justo sit,8,803
+476,sem duis,4876.55,105,73,42,congue elementum,3,125
+477,sed,5903.85,244,8,64,luctus et,7,480
+478,non,5672.77,336,45,2,quis,7,580
+479,sagittis sapien,2609.4,288,63,38,quis,5,629
+480,potenti nullam,1693.79,26,25,24,justo,1,261
+481,magna,2931.93,135,47,2,in,7,634
+482,varius integer,5220.57,346,16,1,morbi,8,168
+483,sapien,3961.51,74,7,51,vivamus,10,400
+484,donec,6854.23,3,34,20,justo,9,540
+485,ut ultrices,9195.0,286,46,6,justo,6,869
+486,sed,2505.38,237,70,62,tellus,8,581
+487,molestie lorem,5067.95,11,84,50,vivamus in,1,45
+488,vel,713.74,62,44,55,sapien,6,233
+489,tortor quis,5158.12,40,66,36,sapien,8,571
+490,porttitor,347.34,26,58,9,accumsan,6,959
+491,vestibulum ante,3480.44,307,23,53,etiam justo,2,777
+492,ut,1682.38,84,25,13,et,5,176
+493,feugiat et,2595.66,95,90,31,id nisl,5,593
+494,amet,6712.71,318,9,52,non mauris,6,635
+495,quisque,931.5,89,11,63,hac habitasse,2,138
+496,sed,8429.29,256,25,68,ultrices,6,834
+497,nisi volutpat,2897.63,271,17,37,at turpis,1,691
+498,tristique,9404.13,283,52,6,in purus,7,402
+499,massa volutpat,2600.31,4,74,18,nibh,7,926
+500,curae,2015.4,6,28,63,non ligula,1,955
+501,et,7342.47,230,55,35,integer,4,651
+502,nascetur,6338.11,332,48,12,massa,10,805
+503,sit,4061.82,238,48,8,vitae,10,795
+504,consectetuer eget,2781.68,51,1,54,morbi,3,871
+505,leo odio,3012.05,195,95,18,nascetur ridiculus,7,422
+506,volutpat,8617.56,152,33,25,vitae,2,500
+507,vulputate ut,7564.31,195,19,9,pede malesuada,3,361
+508,morbi,8655.59,165,74,67,pretium iaculis,4,469
+509,nisl,6064.13,344,89,32,ultrices,4,395
+510,accumsan,5557.81,18,96,14,vestibulum,8,390
+511,nam ultrices,9175.08,73,18,62,et ultrices,2,27
+512,erat volutpat,2394.09,39,46,47,lorem ipsum,3,32
+513,rutrum neque,8864.24,89,35,11,pulvinar sed,7,509
+514,ut,8921.93,9,62,35,eu nibh,2,662
+515,scelerisque,3580.37,62,42,2,augue,8,650
+516,vulputate,5727.43,163,75,40,tellus,10,452
+517,elementum ligula,3043.72,20,9,17,suscipit,8,373
+518,quisque,7114.55,136,84,21,cubilia,7,441
+519,nisl nunc,2751.74,346,66,3,justo lacinia,6,613
+520,mauris vulputate,5969.06,85,31,66,euismod,10,271
+521,etiam pretium,2737.0,66,71,7,adipiscing lorem,5,402
+522,turpis enim,7410.39,141,63,49,convallis,9,707
+523,sed,4960.21,328,52,66,non,7,91
+524,libero,2865.21,68,8,20,et magnis,3,820
+525,id pretium,5420.6,207,97,64,sit,3,280
+526,tristique,5941.87,66,20,35,nullam,10,979
+527,lobortis,3513.97,295,36,52,et ultrices,5,678
+528,dapibus,8381.25,244,56,30,donec semper,6,803
+529,ultrices,5527.99,72,20,11,non interdum,4,601
+530,eget tincidunt,3807.31,104,53,56,nulla,10,935
+531,at velit,4948.87,289,21,37,nulla ultrices,4,136
+532,adipiscing,3434.46,113,55,52,lacinia,10,100
+533,vel,8950.1,306,28,25,morbi,1,556
+534,praesent,2065.4,309,66,48,habitasse platea,7,805
+535,nunc,7555.43,75,10,52,in lectus,3,646
+536,magna vestibulum,2545.38,163,34,41,amet,3,713
+537,et,1422.74,72,82,40,cubilia curae,3,100
+538,nullam,1681.21,100,17,66,vitae consectetuer,10,24
+539,erat tortor,6829.58,125,81,29,tincidunt eget,9,578
+540,est risus,8934.88,104,87,15,elit,7,65
+541,neque duis,5280.87,283,13,43,suscipit ligula,10,388
+542,dictumst morbi,4895.28,155,54,53,primis in,10,531
+543,augue quam,2353.81,66,97,37,porttitor lacus,1,181
+544,turpis enim,8343.77,225,1,60,aenean lectus,9,598
+545,nonummy,5099.61,283,33,35,eu est,9,998
+546,a,8771.04,318,37,23,purus aliquet,6,21
+547,lacinia,4103.56,149,62,67,dui vel,9,786
+548,quam sollicitudin,7894.51,224,54,40,nulla,10,54
+549,odio,6890.78,206,53,35,venenatis,9,684
+550,integer ac,8342.68,143,74,69,vehicula condimentum,8,319
+551,nibh ligula,5387.33,224,31,20,primis in,9,891
+552,volutpat,3163.94,321,19,44,in tempor,8,347
+553,duis,8065.9,194,23,22,curabitur in,1,466
+554,sit amet,8557.32,190,13,31,non,3,941
+555,platea,8243.3,32,86,57,justo etiam,2,93
+556,nullam,325.61,55,79,22,molestie,3,656
+557,molestie nibh,9090.85,267,5,53,a suscipit,1,924
+558,accumsan,4784.82,247,94,14,nunc commodo,3,771
+559,dictumst morbi,8194.7,76,12,13,sit,10,862
+560,cubilia curae,1290.82,238,56,70,natoque,3,848
+561,at,1016.07,251,70,70,parturient,2,833
+562,nunc proin,239.77,250,53,31,lobortis,10,348
+563,eros vestibulum,3734.87,192,34,25,semper sapien,3,910
+564,volutpat quam,5915.2,6,96,15,neque sapien,1,468
+565,leo,5931.3,241,85,69,nascetur,2,163
+566,consequat lectus,2966.24,233,59,17,ullamcorper augue,2,410
+567,curabitur at,8151.09,291,1,53,sed lacus,2,46
+568,mattis,7684.12,292,44,69,primis in,7,916
+569,congue,1056.09,241,18,10,sed augue,9,373
+570,dolor,2933.67,342,68,39,nulla,6,802
+571,eget tincidunt,9188.35,7,8,34,cursus,8,880
+572,nulla,6116.96,261,15,40,ut rhoncus,10,735
+573,congue elementum,3377.55,131,57,65,orci luctus,2,718
+574,morbi,4450.43,115,37,22,in ante,5,332
+575,phasellus sit,7145.64,279,67,46,sit amet,4,660
+576,luctus,7556.67,147,77,19,duis,2,471
+577,hac habitasse,7866.85,6,96,70,tempus,9,686
+578,nullam porttitor,8145.04,50,69,28,ut,5,879
+579,molestie nibh,6968.56,65,78,42,mattis,4,28
+580,nisl duis,1217.11,262,50,5,nec condimentum,10,941
+581,id,2972.86,297,12,65,augue vestibulum,8,601
+582,rhoncus mauris,4253.96,325,97,45,non mi,6,835
+583,augue,948.31,65,79,44,sagittis,9,414
+584,mi nulla,2001.08,87,14,3,tempus,2,905
+585,at turpis,1745.05,45,36,61,nascetur ridiculus,1,369
+586,potenti in,3094.08,173,18,14,congue risus,4,916
+587,blandit,5265.43,91,61,3,nunc,7,330
+588,ut dolor,3921.09,297,10,67,nec,10,581
+589,massa,9671.94,38,12,48,magna,3,564
+590,congue,6645.77,329,24,50,platea,7,472
+591,mauris,5459.16,271,31,24,quisque,2,25
+592,sapien iaculis,5960.86,246,63,38,placerat ante,10,937
+593,faucibus orci,3257.61,174,95,65,pellentesque,7,87
+594,tortor eu,7110.64,280,99,27,bibendum,5,860
+595,ac enim,1824.63,53,32,20,ac,5,542
+596,diam,3831.02,182,86,8,in,4,917
+597,quis orci,1060.11,109,27,68,lacinia aenean,8,542
+598,in congue,993.94,94,54,8,curae,1,533
+599,nunc nisl,8622.02,295,60,31,luctus et,3,185
+600,nec sem,3814.18,145,53,33,quisque,5,543
+601,nullam,9856.62,152,96,38,at,10,701
+602,rutrum,2078.2,282,35,31,sit amet,4,638
+603,ac lobortis,9415.62,266,11,32,consequat ut,2,462
+604,arcu adipiscing,6558.74,102,51,6,fusce,9,243
+605,primis in,4545.45,271,98,4,curae nulla,2,404
+606,blandit ultrices,3859.25,273,63,2,ut ultrices,5,34
+607,dapibus,1653.55,218,37,57,eget eleifend,7,240
+608,justo nec,1031.21,15,96,37,morbi,6,446
+609,nulla,8154.22,13,27,45,donec semper,8,742
+610,sociis natoque,4599.8,127,3,65,dui,2,566
+611,elementum,3879.46,257,22,39,mauris,8,377
+612,nibh,7684.94,241,24,34,lacinia erat,3,313
+613,et tempus,331.66,49,47,12,viverra dapibus,10,959
+614,bibendum,5490.97,257,7,57,sollicitudin mi,3,289
+615,at lorem,814.26,284,1,55,mauris,8,219
+616,montes,3019.97,266,70,26,turpis,10,319
+617,platea dictumst,238.44,111,95,34,varius,5,926
+618,tristique fusce,8663.07,84,45,40,gravida,9,134
+619,odio porttitor,2337.84,185,43,56,fusce lacus,10,925
+620,integer,770.51,258,47,11,tincidunt ante,7,392
+621,ipsum dolor,1122.47,328,12,68,eros suspendisse,4,228
+622,integer tincidunt,8515.02,134,63,46,aliquet pulvinar,10,435
+623,diam neque,7060.76,317,78,51,ultrices posuere,2,313
+624,semper,114.85,83,88,36,ut,10,31
+625,lorem,9819.73,199,47,52,viverra diam,10,932
+626,sodales,9591.6,100,59,36,consectetuer,9,343
+627,ac consequat,3458.8,311,21,33,cras,1,540
+628,vestibulum ante,7367.51,42,56,60,rhoncus,8,705
+629,tincidunt,1560.84,31,85,27,ac,3,772
+630,nulla tempus,6178.56,99,67,34,lobortis,9,955
+631,mollis molestie,6200.81,22,39,8,rutrum at,5,699
+632,ut,8453.32,286,62,33,neque,9,611
+633,consectetuer,6802.55,20,73,3,vel,3,861
+634,sapien non,5720.47,103,36,8,in lectus,1,651
+635,cubilia curae,2825.04,268,69,50,sed,3,239
+636,suspendisse,3009.46,249,92,38,sed,7,202
+637,luctus,78.68,172,67,63,vestibulum ante,9,324
+638,vestibulum,2778.7,152,38,17,ac nulla,4,541
+639,nulla,7515.66,77,38,26,at,2,90
+640,ligula,224.02,124,68,21,est,2,172
+641,libero,1854.09,196,53,29,enim blandit,6,387
+642,duis ac,6607.79,65,93,30,erat vestibulum,6,424
+643,nulla ac,2087.1,311,35,2,curabitur,1,84
+644,luctus cum,2108.74,176,86,8,faucibus cursus,9,594
+645,eros,5721.13,294,19,5,ante nulla,7,74
+646,lorem,8564.53,74,63,8,lobortis ligula,5,242
+647,tristique,7532.33,33,97,43,semper interdum,7,880
+648,ac,7287.5,115,25,1,praesent lectus,5,355
+649,nibh in,7816.72,104,21,15,eget nunc,2,176
+650,rutrum,8690.88,162,72,17,sapien in,3,391
+651,iaculis,9144.04,225,74,16,diam,2,485
+652,pulvinar,7928.74,211,68,67,ultrices,2,351
+653,maecenas ut,5396.06,156,36,4,suspendisse potenti,6,103
+654,ac,4606.03,217,36,1,ut,7,60
+655,et,2889.22,269,92,6,nulla,4,53
+656,luctus,3090.42,232,39,46,pharetra magna,7,360
+657,vestibulum,1911.91,3,20,6,viverra,7,899
+658,cras non,5124.65,206,82,30,felis eu,8,92
+659,nunc,6.77,60,18,44,felis,6,324
+660,pede,8912.87,39,18,6,porttitor,7,934
+661,sapien arcu,8307.52,336,92,23,nisl duis,6,934
+662,donec vitae,7448.0,153,20,67,nisl,6,921
+663,id,3803.82,346,86,57,faucibus orci,6,946
+664,morbi non,60.09,15,20,48,rutrum,1,11
+665,ultricies eu,2034.0,29,41,9,risus,2,382
+666,luctus,2604.89,114,96,13,vivamus,9,353
+667,sapien cum,2465.86,32,21,47,fusce,7,625
+668,natoque,3296.1,171,24,64,in,2,590
+669,elit proin,380.17,165,50,3,platea dictumst,3,834
+670,eu,1682.05,347,58,53,ut,3,62
+671,in,2480.02,54,18,64,nulla,4,591
+672,morbi,7202.39,225,34,70,in hac,2,189
+673,erat nulla,1974.53,214,41,1,sodales scelerisque,7,220
+674,libero,5887.12,349,9,24,felis sed,2,776
+675,justo,3025.41,166,24,38,montes nascetur,9,649
+676,vestibulum ante,8198.49,225,97,65,est lacinia,8,862
+677,sapien sapien,6549.74,14,3,51,sit amet,9,938
+678,ut nunc,3818.36,223,15,28,justo aliquam,3,880
+679,sit amet,596.18,340,32,61,ut,7,321
+680,ac,4258.56,277,27,27,sapien varius,8,927
+681,suspendisse accumsan,1972.74,74,22,15,in,9,351
+682,eu sapien,373.12,37,4,64,ultrices libero,7,285
+683,leo odio,9366.53,124,82,27,id,7,325
+684,sapien,8978.24,296,23,17,aenean,8,774
+685,vivamus vel,4019.32,4,8,50,rhoncus,9,921
+686,ut mauris,3928.96,27,14,28,cras,9,219
+687,duis,2154.43,302,35,63,ut,3,495
+688,molestie,7667.94,279,35,44,est,3,460
+689,nulla,2527.82,217,15,63,quam,5,613
+690,hac habitasse,3276.5,323,88,46,quis,8,504
+691,pellentesque,9851.15,237,45,5,ipsum dolor,7,775
+692,arcu adipiscing,3663.2,191,44,29,faucibus,3,300
+693,cubilia curae,3371.71,34,83,6,erat,5,655
+694,sem duis,7075.86,126,31,67,mauris,2,190
+695,congue,8048.93,85,44,50,vestibulum,10,296
+696,nisl duis,3368.32,260,28,49,nisl,4,521
+697,in,411.81,18,27,42,aenean sit,6,692
+698,dis parturient,9098.14,296,33,31,maecenas pulvinar,1,734
+699,rhoncus,1610.74,23,24,44,cras,8,298
+700,eget,5467.18,269,64,59,in,4,353
+701,sed,6261.45,5,92,6,lobortis,1,100
+702,metus,2264.37,11,82,39,ipsum,8,286
+703,et eros,8062.08,293,12,22,quam,7,405
+704,orci luctus,7088.9,196,67,48,aliquam,4,864
+705,viverra,7034.38,100,54,25,non mi,3,558
+706,mattis odio,8720.19,132,15,4,blandit nam,6,940
+707,nullam,858.21,84,61,45,lobortis,1,758
+708,in imperdiet,8141.01,349,10,40,lectus,5,855
+709,aenean,3587.83,79,82,70,lorem,6,719
+710,vitae quam,1933.1,171,85,42,lobortis sapien,2,972
+711,at,7658.06,314,32,17,velit eu,5,380
+712,consequat dui,6084.87,175,55,33,augue vestibulum,5,608
+713,mollis,5885.25,70,18,61,sit,5,372
+714,interdum mauris,3067.55,118,83,31,turpis,9,653
+715,porttitor,8199.35,338,9,24,metus sapien,10,721
+716,luctus et,9183.16,71,98,42,sit,1,403
+717,vel enim,7549.73,322,54,68,a,5,221
+718,in ante,9713.98,235,61,68,et,5,275
+719,volutpat,2933.37,295,12,61,dictumst,10,547
+720,vestibulum,4612.62,154,31,40,elit ac,4,851
+721,nulla elit,246.06,42,96,53,vestibulum,2,99
+722,sapien,4810.07,160,2,45,eros vestibulum,6,874
+723,id justo,3670.43,202,68,49,cras non,9,557
+724,cum,2888.91,114,5,63,aliquam,10,619
+725,eu,2075.02,286,89,31,mus,2,122
+726,sapien,9325.8,162,89,70,risus semper,10,358
+727,leo pellentesque,1988.8,210,11,30,porta volutpat,8,120
+728,semper est,3350.74,18,12,49,platea dictumst,10,392
+729,duis,4741.47,80,50,66,euismod,1,730
+730,tellus semper,3957.77,311,6,10,libero,3,805
+731,magna vulputate,3214.81,179,89,21,in,5,381
+732,vehicula,5399.21,66,33,49,in faucibus,1,833
+733,orci,416.87,328,80,63,donec,7,935
+734,sit amet,8503.64,219,88,5,ac enim,2,398
+735,sed nisl,151.1,54,83,11,vestibulum vestibulum,10,318
+736,elementum,2618.69,27,34,33,a,10,685
+737,non lectus,4130.48,328,100,70,ipsum primis,5,581
+738,cubilia,797.56,154,2,6,libero non,1,483
+739,dictumst etiam,7300.28,344,64,51,ac nulla,9,864
+740,placerat,5206.23,81,82,9,rhoncus sed,3,410
+741,nibh,8372.43,152,100,68,eros,6,332
+742,id,6706.7,99,36,35,eleifend,1,451
+743,ante vestibulum,4262.44,287,9,37,nisi,3,106
+744,morbi,5274.28,298,30,20,ac,6,989
+745,quam a,4192.54,200,82,51,a,8,790
+746,et,4178.21,303,66,57,vestibulum,7,357
+747,rhoncus aliquet,8833.43,38,39,60,cubilia,5,432
+748,convallis,8090.12,172,98,65,quam sollicitudin,4,782
+749,pellentesque,8793.99,19,27,46,mollis molestie,1,46
+750,ligula sit,7989.0,71,42,60,etiam,3,896
+751,orci vehicula,5896.54,92,57,31,justo etiam,10,770
+752,convallis,1668.24,314,91,20,non,10,788
+753,nisl nunc,4587.73,158,49,8,amet,1,136
+754,vulputate,2817.38,63,5,37,quam,4,208
+755,lacinia erat,8436.58,172,43,44,ut,10,246
+756,vehicula condimentum,4270.12,14,48,20,massa,8,182
+757,consectetuer adipiscing,7949.32,82,59,63,mauris,5,166
+758,aliquam,9151.84,341,75,69,ac leo,1,786
+759,justo,6419.29,224,84,16,ante ipsum,5,537
+760,placerat ante,7893.21,41,71,65,nec,8,396
+761,convallis duis,253.88,75,76,63,at turpis,10,4
+762,imperdiet sapien,3032.82,134,36,66,non quam,7,345
+763,ligula,1429.04,319,82,42,mauris,7,947
+764,dui proin,9697.46,330,96,26,consequat lectus,3,384
+765,ullamcorper augue,5996.76,251,46,10,in,10,85
+766,sed,4557.68,346,51,30,sem,3,454
+767,tincidunt,8024.48,50,42,8,ac nibh,2,428
+768,ligula sit,2927.82,89,78,51,iaculis,4,319
+769,duis,2099.77,328,25,46,vitae,4,637
+770,leo odio,3976.02,350,29,60,pede lobortis,3,298
+771,ipsum,3785.4,27,72,35,luctus tincidunt,1,813
+772,aliquet maecenas,350.58,167,15,44,turpis,7,460
+773,elementum,1555.46,22,72,65,est congue,1,92
+774,sagittis dui,4382.6,226,59,6,lacinia erat,7,337
+775,maecenas,3437.57,232,87,26,pede,4,76
+776,arcu libero,3906.04,157,70,44,vel,10,839
+777,montes,2493.37,188,32,46,aliquam,8,52
+778,nulla pede,8041.25,317,21,44,amet,7,623
+779,vel,4218.63,311,46,38,sed,6,606
+780,egestas metus,4230.61,290,52,45,convallis tortor,10,283
+781,consequat dui,7263.98,115,56,8,ut mauris,6,635
+782,sapien,8879.96,87,29,13,quam,2,73
+783,phasellus,7736.51,133,89,40,dapibus nulla,6,366
+784,nulla tellus,4852.84,345,1,14,justo sollicitudin,7,630
+785,fusce,3595.1,106,67,58,maecenas,3,811
+786,mus,4702.47,37,29,26,pretium nisl,9,671
+787,quisque arcu,5984.87,137,32,12,aliquam augue,7,1000
+788,erat tortor,5828.43,161,35,29,eu est,9,820
+789,nunc,6195.51,15,34,50,lectus,6,213
+790,lorem ipsum,1944.5,89,92,58,massa,3,226
+791,nec sem,872.35,188,45,54,aliquam quis,2,213
+792,consectetuer adipiscing,4838.3,289,87,66,erat volutpat,2,72
+793,natoque penatibus,8995.21,29,31,11,diam nam,8,479
+794,fringilla rhoncus,6772.01,315,8,12,odio,3,401
+795,lorem id,2398.7,83,21,55,accumsan odio,1,675
+796,nisi,4437.79,233,25,34,mi,4,776
+797,ac,980.38,114,40,31,tincidunt nulla,5,170
+798,pede,2613.26,319,96,60,bibendum morbi,10,183
+799,in,7427.84,190,84,41,phasellus,5,30
+800,blandit mi,1460.55,281,81,8,ac,9,55
+801,volutpat dui,6783.99,270,23,2,id,5,638
+802,nisl duis,3850.02,41,54,2,est donec,8,365
+803,massa id,7145.14,184,82,48,a,5,91
+804,metus,1186.43,243,36,33,magna,10,872
+805,quisque arcu,1649.16,272,80,63,eget rutrum,8,406
+806,tempor,2697.38,271,82,44,turpis nec,5,847
+807,pellentesque,1359.79,34,36,3,mi integer,3,503
+808,fusce posuere,1412.15,80,6,50,sociis,5,63
+809,quis,2018.28,226,14,52,in,2,527
+810,bibendum,6101.09,291,43,61,vestibulum quam,7,671
+811,scelerisque mauris,1308.49,116,67,15,justo eu,7,697
+812,phasellus sit,8133.79,267,43,67,rutrum,6,471
+813,tempor,6920.93,267,38,14,lorem,4,208
+814,non,6795.01,44,20,5,nisl nunc,7,186
+815,odio cras,5169.79,70,100,57,non,10,747
+816,id,6438.89,240,27,39,at ipsum,9,649
+817,nunc,1982.26,284,4,24,nibh,2,573
+818,eleifend pede,3964.56,14,71,66,augue vestibulum,6,125
+819,pellentesque,7027.53,79,87,42,penatibus,7,777
+820,sit,5856.26,21,30,43,donec vitae,1,146
+821,pretium,2843.58,211,61,3,nec,7,871
+822,congue,4488.36,180,46,55,felis sed,4,505
+823,hac habitasse,2889.08,347,44,24,vestibulum,4,738
+824,in sagittis,9041.08,86,36,51,nisi eu,1,173
+825,dui,8967.74,26,79,11,posuere,4,69
+826,sapien,1992.93,174,22,67,ipsum integer,1,338
+827,lacus,5914.26,345,49,21,tellus nisi,7,839
+828,cursus,1968.75,36,21,48,faucibus,10,446
+829,etiam faucibus,579.24,326,32,44,risus,2,161
+830,nunc vestibulum,2851.32,221,5,62,vitae,6,71
+831,platea dictumst,8457.55,343,36,23,tempor,10,117
+832,rhoncus,2311.87,48,84,14,hac,3,949
+833,vel,6613.62,312,33,45,pede,10,586
+834,enim,2060.17,134,4,45,dui,8,12
+835,justo in,6276.53,323,5,29,diam,7,898
+836,at,8199.19,63,66,35,pede,3,298
+837,metus arcu,323.15,212,53,17,duis,2,548
+838,vel nisl,6837.35,181,45,51,arcu adipiscing,9,714
+839,nibh in,4620.69,100,15,48,sapien placerat,9,413
+840,etiam,4466.89,36,59,40,nisi at,8,476
+841,turpis,4366.05,184,3,6,quis orci,10,410
+842,magnis,7059.92,137,84,13,lectus,8,905
+843,odio curabitur,9451.74,116,19,2,quisque,3,802
+844,condimentum neque,245.79,228,99,23,dis,6,462
+845,odio,9051.68,221,26,39,orci nullam,2,636
+846,tempus,3650.9,108,37,4,augue luctus,8,97
+847,faucibus accumsan,1459.23,158,35,34,vel pede,2,981
+848,a,7205.41,239,38,59,convallis morbi,2,777
+849,praesent,9546.95,208,57,31,enim blandit,9,898
+850,suspendisse ornare,7630.7,133,33,67,cubilia,1,915
+851,proin eu,3760.29,264,70,23,integer a,7,154
+852,ante,6287.48,329,65,51,praesent,5,433
+853,nulla,5552.98,236,76,61,ullamcorper,9,909
+854,maecenas,1038.48,195,98,62,vitae,6,374
+855,velit eu,3701.72,169,25,20,felis,10,377
+856,odio,9578.0,293,52,18,venenatis,8,907
+857,duis,9294.14,223,62,22,orci,9,831
+858,nunc proin,5819.12,40,49,28,tristique tortor,10,380
+859,lacinia sapien,9380.83,313,15,28,velit nec,9,272
+860,ac diam,9681.97,113,76,11,pulvinar nulla,1,426
+861,ultrices,3842.81,123,76,39,dapibus,7,165
+862,cubilia,4175.28,158,40,56,ultricies eu,1,638
+863,in lectus,9016.81,54,76,44,varius integer,8,643
+864,est donec,8236.97,330,94,18,morbi non,6,347
+865,suspendisse potenti,3098.19,16,26,8,nibh,5,930
+866,vel,8844.58,226,10,49,non mattis,8,435
+867,eleifend,8595.52,253,69,61,parturient,1,932
+868,phasellus,3792.66,324,66,3,condimentum id,9,132
+869,cursus id,4974.31,99,11,32,a suscipit,7,80
+870,lectus,1815.29,193,30,12,blandit,6,14
+871,amet justo,6497.16,331,52,41,blandit,1,712
+872,turpis a,4775.66,10,50,38,libero,5,668
+873,erat,1552.11,200,87,65,et,1,366
+874,mi,9132.62,39,78,64,tortor risus,5,75
+875,quisque,8158.48,169,93,31,sapien,7,538
+876,lobortis sapien,4028.04,101,2,45,amet turpis,1,556
+877,vestibulum,7167.77,71,75,12,porttitor,7,478
+878,massa donec,1591.41,309,52,19,congue,6,205
+879,gravida nisi,813.91,13,46,50,semper,7,453
+880,rhoncus,1084.09,81,79,24,hendrerit,2,494
+881,volutpat,6177.58,258,30,17,quis justo,6,875
+882,donec,1159.81,108,65,52,est,10,310
+883,potenti nullam,7922.95,28,46,39,hac,10,13
+884,ultrices posuere,7120.34,298,34,15,nullam varius,6,336
+885,pellentesque,2370.47,96,68,15,tortor,5,123
+886,tortor duis,6345.36,75,58,15,nunc purus,8,592
+887,mi,3024.29,61,60,51,risus,3,471
+888,nisl,1369.93,130,74,48,vel,5,976
+889,vitae consectetuer,8841.02,212,93,17,amet,6,599
+890,ac,6928.96,250,98,47,faucibus accumsan,1,713
+891,eget,811.85,309,34,16,a,10,452
+892,tincidunt,2814.57,264,22,2,consequat,5,518
+893,non velit,7559.33,97,45,29,nisl,2,702
+894,sapien,4013.28,161,71,69,libero,4,792
+895,ac diam,371.17,186,45,60,commodo,9,361
+896,sapien urna,1740.5,22,72,27,vestibulum ante,8,821
+897,placerat praesent,9112.02,161,10,36,enim blandit,4,932
+898,pellentesque,1313.24,209,95,3,ligula,8,966
+899,non,9921.1,2,71,27,morbi non,3,150
+900,ante,9991.59,264,57,42,amet,7,550
+901,et,1394.07,106,66,11,elementum pellentesque,3,361
+902,et tempus,9452.9,167,96,21,viverra,1,307
+903,at nunc,8806.29,90,99,62,ullamcorper,3,838
+904,felis eu,5805.34,241,92,26,nisi,2,83
+905,suspendisse,2475.81,198,28,64,vel nulla,3,731
+906,ultrices,2727.89,29,64,41,enim blandit,7,776
+907,eu,3650.87,112,15,8,etiam vel,4,310
+908,congue risus,5540.66,10,39,3,montes,4,233
+909,curabitur,2096.84,65,40,46,mauris,7,719
+910,pharetra magna,3066.72,293,31,51,congue vivamus,3,799
+911,luctus,5472.16,205,1,30,felis sed,9,171
+912,ultrices phasellus,2632.25,155,63,46,potenti nullam,1,708
+913,lacus,9002.95,228,14,59,justo lacinia,6,283
+914,felis sed,7769.6,268,8,67,nulla tellus,8,904
+915,iaculis,7177.86,273,7,50,mi sit,5,454
+916,interdum,6095.4,150,78,54,aenean,6,677
+917,volutpat,5227.08,300,37,3,turpis eget,8,771
+918,platea,8919.07,291,37,61,rutrum,5,375
+919,vel,2516.08,295,81,63,vitae,7,707
+920,eros viverra,1878.3,41,26,25,at,5,737
+921,ut at,8303.35,138,61,57,diam neque,2,750
+922,in quis,752.49,37,66,28,eu magna,5,186
+923,imperdiet,8252.72,48,82,37,sit,1,925
+924,praesent,4368.21,88,33,32,non quam,6,428
+925,vitae,1212.12,181,96,25,ut,6,912
+926,sem,4740.14,132,19,28,aliquam,4,218
+927,amet,7056.2,292,78,67,luctus,3,592
+928,ante,7107.22,191,76,39,faucibus orci,3,413
+929,amet consectetuer,1094.78,49,98,54,hendrerit,3,509
+930,nonummy,1108.15,120,1,39,consequat,2,870
+931,elit sodales,5191.17,339,1,52,at ipsum,10,435
+932,mi nulla,366.43,38,94,33,nibh quisque,6,206
+933,auctor,2121.49,80,52,36,odio consequat,3,808
+934,platea dictumst,5971.74,186,1,37,a nibh,3,772
+935,vestibulum quam,2035.67,202,15,26,congue diam,1,159
+936,commodo,4124.0,73,90,9,mauris lacinia,1,377
+937,nec,2300.4,273,90,40,nullam,3,289
+938,lobortis,7291.33,294,61,68,quis,3,31
+939,morbi,2509.58,162,37,12,quisque arcu,3,371
+940,nisi,1248.98,307,87,66,nisl duis,4,13
+941,erat,9125.08,51,81,61,sapien varius,1,712
+942,felis,3093.03,134,89,60,eget eros,9,151
+943,justo sit,974.03,315,14,4,leo,9,213
+944,auctor,8899.76,251,19,58,eget,4,322
+945,nibh,9533.86,257,95,25,orci,9,887
+946,sed augue,1524.33,87,43,1,eu,3,69
+947,imperdiet,7060.74,45,50,66,at lorem,4,238
+948,sociis,9403.45,334,75,4,et,7,234
+949,condimentum,7718.68,303,65,3,vel augue,9,540
+950,eget tempus,8866.48,279,44,4,commodo vulputate,2,133
+951,luctus,1759.53,42,4,70,primis,7,975
+952,vel,7005.7,42,54,35,at,4,9
+953,sapien quis,3540.38,217,91,66,felis sed,3,1
+954,suspendisse,4078.83,117,37,28,viverra eget,5,977
+955,scelerisque,4600.98,237,58,12,magna bibendum,10,982
+956,sapien varius,924.35,330,34,43,massa id,6,41
+957,nulla quisque,1497.5,52,72,35,pede ullamcorper,1,590
+958,dui,5091.81,188,64,66,sed,3,242
+959,turpis,6437.99,75,38,62,vitae,5,923
+960,iaculis justo,4243.93,244,10,47,eros elementum,10,523
+961,erat nulla,7731.29,234,48,29,sem sed,6,934
+962,in,1291.76,238,7,66,quam sapien,6,141
+963,suspendisse,8375.71,236,70,38,a suscipit,6,59
+964,dolor vel,991.18,141,14,57,lacus,9,237
+965,eget,7535.25,325,6,44,sit amet,3,605
+966,feugiat non,4882.95,121,21,40,orci luctus,7,919
+967,non velit,3522.09,113,87,41,ac est,9,58
+968,eu mi,6777.86,3,9,52,libero,3,522
+969,auctor sed,3384.45,240,94,55,augue luctus,4,249
+970,ut,2579.18,246,66,46,justo eu,2,647
+971,dolor,9701.04,89,27,30,cum,9,774
+972,velit,4643.01,288,40,53,luctus et,6,655
+973,scelerisque,7423.85,97,98,4,convallis duis,6,66
+974,non,1904.54,38,33,50,amet cursus,6,396
+975,amet,9679.21,22,38,10,platea dictumst,8,629
+976,sit amet,7222.36,78,4,49,erat,3,216
+977,nibh,6994.98,27,12,14,augue aliquam,6,818
+978,justo sollicitudin,6421.92,283,53,39,vivamus,10,741
+979,proin,8931.83,146,23,3,sit,5,518
+980,diam cras,8949.84,83,28,31,eu orci,5,277
+981,quisque porta,6103.37,14,7,27,erat eros,5,991
+982,dapibus,1374.54,168,83,45,at ipsum,4,883
+983,duis,811.88,280,75,42,sit,7,507
+984,vel,8680.0,160,38,9,habitasse platea,9,366
+985,non,7630.31,281,91,54,luctus,3,90
+986,tincidunt eu,2438.15,301,94,10,diam vitae,1,515
+987,bibendum,6600.7,256,49,19,quam nec,4,826
+988,in,5575.88,85,22,36,lobortis ligula,7,470
+989,curabitur gravida,5120.69,334,1,19,ipsum,3,694
+990,at ipsum,4213.63,265,44,61,bibendum,2,50
+991,leo,2272.89,170,70,53,diam,7,990
+992,porttitor,6743.63,285,96,33,ut dolor,7,757
+993,aenean,3809.92,206,7,19,porttitor,4,514
+994,turpis,8981.81,303,85,65,convallis,9,130
+995,justo,6128.06,83,64,23,lorem,5,92
+996,morbi,4103.12,150,22,48,amet cursus,3,619
+997,sit amet,7970.41,308,14,54,condimentum neque,10,814
+998,neque,3730.76,180,63,21,id mauris,10,423
+999,tellus nulla,6528.43,44,60,28,a,2,678
+1000,amet,9801.12,203,11,13,dapibus at,3,33
