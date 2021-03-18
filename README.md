@@ -94,13 +94,13 @@ that can be personalized in the future for various types of products / services.
 ## indexing
 
 To have a more efficient database we decided to create indexes for Product, Order and UserAccount tables. Indexes will help us to retrieve data from 
-database quickly. 
+database quickly. One important thing in indexing is that all the foreign keys should be indexed in order to improve performance. 
 
 Index for Product: 
 
 ```sql
 SELECT ProductTitle, Price, ProductCategoryID FROM Product Where ProductCategoryID=1 ORDER BY ProductTitle;
-CREATE INDEX index_product ON Product (ProductTitle, ProductCategoryID, Price);
+CREATE INDEX index_product ON Product (ProductCategoryID, ProductTitle, Price);
 ```
 
 Index for Order: 
@@ -111,7 +111,7 @@ CREATE INDEX index_Order ON Order (OrderStatus, PaymentMethodID, BasketID);
 ```
 Index for UserAccount: 
 ```sql
-SELECT FirstName, LastName, Email FROM UserAccount Where LastName="admin" ORDER BY FirstName;
+SELECT FirstName, LastName, Email FROM UserAccount Where LastName="admin" AND FirstName="admin" ORDER BY FirstName;
 CREATE INDEX index_UserAccount ON UserAccount (FirstName, LastName, Email);
 ```
 ### Creating backups (how, when, where, by whom)
