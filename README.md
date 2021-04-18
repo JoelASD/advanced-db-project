@@ -124,7 +124,7 @@ Partition the order table by years ?
 * Create indexes for the most frequently used tables
 * Use transactions for the payment process and adding products to the basket
 *  Triggers
-    * Before inserting into Review table, check that value of Rating is accepted ("Stars": 1-5)
+    * Before inserting into Review table, check that value of Rating is accepted, rating: 1-5, and that user hasn't given review for that product before.
     * Create or update timestamp after after new row is added or old one updated within tables: UserAccount, Product, Basket, Order, Giftcard, Review.
 
 ### Maintenance of database
