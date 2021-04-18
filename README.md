@@ -40,14 +40,14 @@ that can be personalized in the future for various types of products / services.
 ## Non Functional Requirements
 
 | Code | Requirement | Priority |								
-|:-:|:-:|:-:|
-| NFR01 | Personal data logging | Medium |
-| NFR02 | Product browse history | Medium |
-| NFR03 | Database management roles | High |
-| NFR04 | Database backups | High |
-| NFR05 | Prepared statements in the server side | High |
-| NFR06 | Generating reports | Low |
-| NFR07 | Responsive database (indexing ?) | High |
+| :-: | :-: | :-: |
+| NFR01 | Personal data logging. For example data that can be used for AI to offer / advertise more suitable products | Medium |
+| NFR02 | Browse history must be saved and accessible for later usage by both the user and owner | Medium |
+| NFR03 | Database management roles clearly set from the beginning and needed accounts created | High |
+| NFR04 | Daily batabase backups to a different server | High |
+| NFR05 | Prepared statements in the server side for safe and failproof usage | High |
+| NFR06 | Make sure that generating reports gives practical and useful info | Low |
+| NFR07 | Keep database usage responsive. Incl. indexes for tables like Product and Order | High |
 
 # Conceptual Data Model
 
@@ -123,7 +123,9 @@ Partition the order table by years ?
 ### DB optimization (creating indexes etc.)
 * Create indexes for the most frequently used tables
 * Use transactions for the payment process and adding products to the basket
-* Create some triggers (review stars amount)
+*  Triggers
+    * Before inserting into Review table, check that value of Rating is accepted ("Stars": 1-5)
+    * Create or update timestamp after after new row is added or old one updated within tables: UserAccount, Product, Basket, Order, Giftcard, Review.
 
 ### Maintenance of database
 
