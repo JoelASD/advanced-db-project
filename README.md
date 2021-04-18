@@ -125,7 +125,7 @@ Usage
 
 ```sql
 SELECT OrderStatus, PaymentMethodID, BasketID FROM Order Where OrderStatus="completed";
-CREATE INDEX index_Order ON Order (OrderStatus, PaymentMethodID, BasketID);
+CREATE INDEX index_Order ON ProductOrder (OrderStatus, PaymentMethodID, BasketID);
 ```
 
 Usage
