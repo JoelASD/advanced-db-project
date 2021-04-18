@@ -3,6 +3,7 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
+DROP SCHEMA IF EXISTS `online-store` ;
 CREATE SCHEMA IF NOT EXISTS `online-store` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 USE `online-store` ;
 
@@ -11,7 +12,7 @@ USE `online-store` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `online-store`.`Contract` (
   `ContractID` INT NOT NULL AUTO_INCREMENT,
-  `Salary` DECIMAL(10) NOT NULL,
+  `Salary` DECIMAL(10,2) NOT NULL,
   `Position` VARCHAR(45) NOT NULL,
   `ContractStartDate` DATETIME NOT NULL,
   `ContractEndDate` DATETIME NULL,
@@ -135,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `online-store`.`ProductCategory` (
   `ProductCategory` VARCHAR(100) NOT NULL,
   `ProductCategoryDescription` VARCHAR(1000) NULL,
   `ProductCategoryTax` INT NULL,
-  `ParentProductCategoryID` INT NOT NULL,
+  `ParentProductCategoryID` INT NULL,
   PRIMARY KEY (`ProductCategoryID`),
   INDEX `fk_ProductCategory_ProductCategory1_idx` (`ParentProductCategoryID` ASC),
   CONSTRAINT `fk_ProductCategory_ProductCategory1`
@@ -169,7 +170,7 @@ CREATE TABLE IF NOT EXISTS `online-store`.`Product` (
   `Description` VARCHAR(1000) NULL,
   `ProductInfo` VARCHAR(1000) NULL,
   `ProductCategoryID` INT NOT NULL,
-  `ProductURL` VARCHAR(512) NULL,
+  `ProductURL` VARCHAR(2000) NULL,
   `BrandID` INT NOT NULL,
   PRIMARY KEY (`ProductID`),
   INDEX `fk_Product_ProductCategory1_idx` (`ProductCategoryID` ASC),
@@ -237,12 +238,12 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `online-store`.`Order`
+-- Table `online-store`.`ProductOrder`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `online-store`.`Order` (
+CREATE TABLE IF NOT EXISTS `online-store`.`ProductOrder` (
   `OrderID` INT NOT NULL,
   `OrderStatus` VARCHAR(45) NOT NULL,
-  `TotalPrice` DECIMAL(15) NOT NULL,
+  `TotalPrice` DECIMAL(15,0) NOT NULL,
   `BasketID` INT NOT NULL,
   `PaymentMethodID` INT NOT NULL,
   `DiscountCodeID` INT NULL,
@@ -284,14 +285,14 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `online-store`.`GiftrCard`
+-- Table `online-store`.`GiftCard`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `online-store`.`GiftrCard` (
-  `GiftrCardID` INT NOT NULL AUTO_INCREMENT,
-  `GiftrCardCode` VARCHAR(255) NOT NULL,
+CREATE TABLE IF NOT EXISTS `online-store`.`GiftCard` (
+  `GiftCardID` INT NOT NULL AUTO_INCREMENT,
+  `GiftCardCode` VARCHAR(255) NOT NULL,
   `ExpirationDate` DATETIME NULL,
   `ProductCategoryID` INT NOT NULL,
-  PRIMARY KEY (`GiftrCardID`),
+  PRIMARY KEY (`GiftCardID`),
   INDEX `fk_GiftrCard_ProductCategory1_idx` (`ProductCategoryID` ASC),
   CONSTRAINT `fk_GiftrCard_ProductCategory1`
     FOREIGN KEY (`ProductCategoryID`)
@@ -361,12 +362,12 @@ CREATE TABLE IF NOT EXISTS `online-store`.`timestamps` (
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_timestamps_Order1`
     FOREIGN KEY (`OrderID`)
-    REFERENCES `online-store`.`Order` (`OrderID`)
+    REFERENCES `online-store`.`ProductOrder` (`OrderID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_timestamps_GiftrCard1`
     FOREIGN KEY (`GiftrCardID`)
-    REFERENCES `online-store`.`GiftrCard` (`GiftrCardID`)
+    REFERENCES `online-store`.`GiftCard` (`GiftCardID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_timestamps_Review1`
@@ -422,22 +423,22 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `online-store`.`Order_has_GiftrCard`
+-- Table `online-store`.`Order_has_GiftCard`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `online-store`.`Order_has_GiftrCard` (
+CREATE TABLE IF NOT EXISTS `online-store`.`Order_has_GiftCard` (
   `OrderID` INT NOT NULL,
-  `GiftrCardID` INT NOT NULL,
-  PRIMARY KEY (`OrderID`, `GiftrCardID`),
-  INDEX `fk_Order_has_GiftrCard_GiftrCard1_idx` (`GiftrCardID` ASC),
+  `GiftCardID` INT NOT NULL,
+  PRIMARY KEY (`OrderID`, `GiftCardID`),
+  INDEX `fk_Order_has_GiftrCard_GiftrCard1_idx` (`GiftCardID` ASC),
   INDEX `fk_Order_has_GiftrCard_Order1_idx` (`OrderID` ASC),
   CONSTRAINT `fk_Order_has_GiftrCard_Order1`
     FOREIGN KEY (`OrderID`)
-    REFERENCES `online-store`.`Order` (`OrderID`)
+    REFERENCES `online-store`.`ProductOrder` (`OrderID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Order_has_GiftrCard_GiftrCard1`
-    FOREIGN KEY (`GiftrCardID`)
-    REFERENCES `online-store`.`GiftrCard` (`GiftrCardID`)
+    FOREIGN KEY (`GiftCardID`)
+    REFERENCES `online-store`.`GiftCard` (`GiftCardID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -582,10 +583,186 @@ CREATE TABLE IF NOT EXISTS `online-store`.`Session` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-SET GLOBAL general_log=1;
-SET GLOBAL general_log_file='online-store.log';
+```
+
+# Triggers
+
+```sql
+-- -----------------------------------------------------
+-- Triggers
+-- -----------------------------------------------------
+
+DELIMITER $$
+CREATE TRIGGER review_trig
+BEFORE INSERT ON Review
+FOR EACH ROW
+BEGIN
+	IF NEW.Rating > 5 || NEW.Rating < 1 || (NEW.UserAccountID IN (SELECT UserAccountID FROM Review) and NEW.ProductID IN (SELECT ProductID FROM Review))
+	THEN
+	CALL `'Rating only accepts 1-5! One rating per product per user!'`;
+	END IF;
+END$$
+DELIMITER ;
+
+---------------
+-- UserAccount
+---------------
+
+DELIMITER $$
+CREATE TRIGGER create_UserAccount_trig
+AFTER INSERT ON UserAccount
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, UserAccountID)
+	VALUES (now(), now(), NEW.UserAccountID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_UserAccount_trig
+AFTER UPDATE ON UserAccount
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE UserAccountID = NEW.UserAccountID;
+END$$
+DELIMITER ;
+
+-----------
+-- Product
+-----------
+DELIMITER $$
+CREATE TRIGGER create_Product_trig
+AFTER INSERT ON Product
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, ProductID)
+	VALUES (now(), now(), NEW.ProductID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_Product_trig
+AFTER UPDATE ON Product
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE ProductID = NEW.ProductID;
+END$$
+DELIMITER ;
+
+
+-----------
+-- Basket
+-----------
+DELIMITER $$
+CREATE TRIGGER create_Basket_trig
+AFTER INSERT ON Basket
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, BasketID)
+	VALUES (now(), now(), NEW.BasketID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_Basket_trig
+AFTER UPDATE ON Basket
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE BasketID = NEW.BasketID;
+END$$
+DELIMITER ;
+
+
+-----------
+-- Order
+-----------
+
+DELIMITER $$
+CREATE TRIGGER create_Order_trig
+AFTER INSERT ON ProductOrder
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, OrderID)
+	VALUES (now(), now(), NEW.OrderID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_Order_trig
+AFTER UPDATE ON ProductOrder
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE OrderID = NEW.OrderID;
+END$$
+DELIMITER ;
+
+
+-----------
+-- GitfCard
+-----------
+
+DELIMITER $$
+CREATE TRIGGER create_GiftCard_trig
+AFTER INSERT ON GiftCard
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, GiftCardID)
+	VALUES (now(), now(), NEW.GiftCardID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_GiftCard_trig
+AFTER UPDATE ON GiftCard
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE UserAccountID = NEW.GiftCardID;
+END$$
+DELIMITER ;
+
+
+-----------
+-- Review
+-----------
+
+DELIMITER $$
+CREATE TRIGGER create_Review_trig
+AFTER INSERT ON Review
+FOR EACH ROW
+BEGIN
+	INSERT INTO timestamps(create_time, update_time, ReviewID)
+	VALUES (now(), now(), NEW.ReviewID);
+END$$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER update_Review_trig
+AFTER UPDATE ON Review
+FOR EACH ROW
+BEGIN
+	UPDATE timestamps
+	SET update_time = now()
+	WHERE UserAccountID = NEW.ReviewID;
+END$$
+DELIMITER ;
+
 ```

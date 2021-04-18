@@ -5,37 +5,60 @@
 The goal is to create the database for the template of the online store,
 that can be personalized in the future for various types of products / services.
 
+## Table Of Contents 
+
+- [Advanced Databases Project: Online Store](#advanced-databases-project-online-store)
+  - [Table Of Contents](#table-of-contents)
+- [Requirements](#requirements)
+  - [Functional Requirements](#functional-requirements)
+  - [Non Functional Requirements](#non-functional-requirements)
+- [Conceptual Data Model](#conceptual-data-model)
+  - [Simple Version](#simple-version)
+  - [Full Version](#full-version)
+    - [Version 1](#version-1)
+    - [Version 2](#version-2)
+- [Physical Design Model](#physical-design-model)
+  - [Version 1](#version-1-1)
+  - [Version 2](#version-2-1)
+  - [Metadata](#metadata)
+  - [Database Management Plan](#database-management-plan)
+  - [indexing](#indexing)
+    - [Creating backups (how, when, where, by whom)](#creating-backups-how-when-where-by-whom)
+    - [Partitioning, disk usage \*](#partitioning-disk-usage-)
+  - [DB optimization (creating indexes etc.)](#db-optimization-creating-indexes-etc)
+  - [Maintenance of database](#maintenance-of-database)
+  - [Users, user roles and their rights](#users-user-roles-and-their-rights)
+- [Prototype](#prototype)
+
 # Requirements
 
 ## Functional Requirements
 
-### The links do not work yet
-
-| Code |                                  Requirement                                   | Priority |
-| :--: | :----------------------------------------------------------------------------: | :------: |
-| FR01 |         [ Create an account, login, logout ](../liitteet/f1_login.md)          |   High   |
-| FR02 |                 [ Delete an account ](../liitteet/f1_login.md)                 |   High   |
-| FR03 |             [ Add product to the basket ](../liitteet/f2_tools.md)             |   High   |
-| FR04 |                   [ Manage basket ](../liitteet/f2_tools.md)                   |   High   |
-| FR05 |              [ Place an order ](../liitteet/f3_delete_account.md)              |   High   |
-| FR06 |     [ Add a discount code to the order ](../liitteet/f3_delete_account.md)     |   Low    |
-| FR07 | [ Manage an order, depending on the status ](../liitteet/f3_delete_account.md) |   High   |
-| FR08 |               [ Return the product ? ](../liitteet/f4_rating.md)               |  Medium  |
-| FR09 |               [ Browse the products ](../liitteet/f4_rating.md)                |   High   |
-| FR10 |                 [ Write a review ](../liitteet/f5_comment.md)                  |  Medium  |
-| FR11 |     [ Comment on the review of the product ](../liitteet/f6_rentatool.md)      |   Low    |
-| FR12 |           [ Browse the order history ](../liitteet/f7_returntool.md)           |  Medium  |
-| FR13 |             [ Edit account details ](../liitteet/f7_returntool.md)             |   High   |
-| FR14 |                [ Pay the order ](../liitteet/f7_returntool.md)                 |   High   |
-| FR15 | [ Post or answer a question about the product ](../liitteet/f7_returntool.md)  |   Low    |
-| FR16 |          [ Contact customer service ? ](../liitteet/f7_returntool.md)          |  Medium  |
-| FR17 |      [ Sign up for the availability alert ](../liitteet/f7_returntool.md)      |   Low    |
-| FR18 |         [ Admin panel: manage products ](../liitteet/f7_returntool.md)         |   High   |
-| FR19 |          [ Admin panel: manage users ](../liitteet/f7_returntool.md)           |   High   |
-| FR20 |      [ Admin panel: manage discount codes ](../liitteet/f7_returntool.md)      |   Low    |
-| FR21 |         [ Admin panle: create bundles ](../liitteet/f7_returntool.md)          |  Medium  |
-| FR22 |       [ Admin panle: update order status ](../liitteet/f7_returntool.md)       |   High   |
-| FR23 |           [ Admin panle: manage faq ](../liitteet/f7_returntool.md)            |  Medium  |
+| Code | Requirement | Priority |
+| :-: | :-: | :-: |
+| FR01 | [ Create an account, login, logout ](./pages/req/FR01.md) | High |
+| FR02 | [ Delete an account ](./pages/req/FR02.md) | High |
+| FR03 | [ Add product to the basket ](./req/FR03.md) | High |
+| FR04 | [ Manage basket ](./pages/req/FR04.md) | High |
+| FR05 | [ Place an order ](./pages/req/FR05.md) | High |
+| FR06 | [ Add a discount code to the order ](./pages/req/FR06.md) | Low |
+| FR07 | [ Manage an order, depending on the status ](./pages/req/FR07.md) | High |
+| FR08 | [ Return the product ? ](./pages/req/FR08.md) | Medium |
+| FR09 | [ Browse the products ](./pages/req/FR09.md) | High |
+| FR10 | [ Write a review ](./pages/req/FR10.md) | Medium |
+| FR11 | [ Comment on the review of the product ](./pages/req/FR11.md) | Low |
+| FR12 | [ Browse the order history ](./pages/req/FR12.md) | Medium |
+| FR13 | [ Edit account details ](./pages/req/FR13.md) | High |
+| FR14 | [ Pay the order ](./pages/req/FR14.md) | High |
+| FR15 | [ Post or answer a question about the product ](./pages/req/FR15.md) | Low |
+| FR16 | [ Contact customer service ? ](./pages/req/FR16.md) | Medium |
+| FR17 | [ Sign up for the availability alert ](./pages/req/FR17.md) | Low |
+| FR18 | [ Admin panel: manage products ](./pages/req/FR18.md) | High |
+| FR19 | [ Admin panel: manage users ](./pages/req/FR19.md) | High |
+| FR20 | [ Admin panel: manage discount codes ](./pages/req/FR20.md) | Low |
+| FR21 | [ Admin panle: create bundles ](./pages/req/FR21.md) | Medium |
+| FR22 | [ Admin panle: update order status ](./pages/req/FR22.md) | High |
+| FR23 | [ Admin panle: manage faq ](./pages/req/FR23.md) | Medium |
 
 ## Non Functional Requirements
 
@@ -154,14 +177,14 @@ Daily backups at 00:00 to the separate virtual instance through ssh.
 
 Since the Order table is going to increase in size rapidly through time, it would good practice to partition the Order table and other tables which are related to it by year (horizontal partition). It means, that for each year we create a new partition for Order, Basket, PaymentMethod, Shipment tables.
 
-### DB optimization (creating indexes etc.)
+## DB optimization (creating indexes etc.)
 * Create indexes for the most frequently used tables
 * Use transactions for the payment process and adding products to the basket
 *  Triggers
     * Before inserting into Review table, check that value of Rating is accepted, rating: 1-5, and that user hasn't given review for that product before.
     * Create or update timestamp after after new row is added or old one updated within tables: UserAccount, Product, Basket, Order, Giftcard, Review.
 
-### Maintenance of database
+## Maintenance of database
 
 **Index defragmentation:**
 In order to fix fragmentation, our maintenance plan would evaluate each index for its size, use, and fragmentation level and will either perform a INDEX_REORGANIZE, an INDEX_REBUILD_ONLINE, or even an INDEX_REBUILD_OFFLINE depending how bad the index is.
@@ -181,7 +204,14 @@ Data compaction reorganizes the data the way that the data from the same table w
 **Integrity check:**
 Over time the database will go through a lot of changes, every change can corrupt the database. The integrity check examines and analyses the whole database and can repair all the corruptions.
 
-### Users, user roles and their rights
 
-- Database Administrator
-- Backend Developer
+## Users, user roles and their rights
+* Database Administrator: manages the database (structure, backups)
+* Backend Developer: creates queries
+* Admin user (employee)
+* Normal user
+
+# Prototype
+
+We did not have time to create a legit UI, so we are using the phpMyAdmin DMS as a UI
+![Conceptual Data Model](./images/phpMyAdmin.JPG)
