@@ -180,7 +180,7 @@ Since the Order table is going to increase in size rapidly through time, it woul
 ## DB optimization (creating indexes etc.)
 * Create indexes for the most frequently used tables
 * Use transactions for the payment process and adding products to the basket
-*  Triggers
+*  [Triggers](./pages/triggers.md)
     * Before inserting into Review table, check that value of Rating is accepted, rating: 1-5, and that user hasn't given review for that product before.
     * Create or update timestamp after after new row is added or old one updated within tables: UserAccount, Product, Basket, Order, Giftcard, Review.
 
