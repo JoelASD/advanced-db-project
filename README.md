@@ -217,3 +217,16 @@ Over time the database will go through a lot of changes, every change can corrup
 
 We did not have time to create a legit UI, so we are using the phpMyAdmin DMS as a UI
 ![Conceptual Data Model](./images/phpMyAdmin.JPG)
+
+# Final Words
+Here are some final words about the project.
+
+## Learnings
+We learned the correct way to model the database, using concepts, logical models, indexes, triggers, transactions, normalization. We also learned how to correctly manage the database with backups, user roles, disc partitioning, reverse engineering.
+
+## Problems
+* With the user table we had some different opinions how to hadle the 'guest' user, that did not want to register the account. The solution for this was to not have a guest user, only registered ones.
+* At first we had a possibility to comment a review, but the structure in the communication area was getting to complicated, so we decided to omit this feature.
+
+## Grade suggestion
+5 for all, everyone of us did the work evenly and spent enough time and efford to deserve the best grade. 
