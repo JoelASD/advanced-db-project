@@ -1,6 +1,8 @@
 # Advanced Databases Project: Online Store
 
-- Joel Aalto, Samson Azizyan, Jaber Askari
+- Joel Aalto (M2113)
+- Samson Azizyan (M3156)
+- Jaber Askari (M2947)
 
 The goal is to create the database for the template of the online store,
 that can be personalized in the future for various types of products / services.
