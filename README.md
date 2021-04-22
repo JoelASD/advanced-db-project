@@ -31,6 +31,7 @@ that can be personalized in the future for various types of products / services.
   - [Maintenance of database](#maintenance-of-database)
   - [Users, user roles and their rights](#users-user-roles-and-their-rights)
 - [Prototype](#prototype)
+- [Final Words](#grade-suggestion)
 
 # Requirements
 
@@ -123,6 +124,14 @@ that can be personalized in the future for various types of products / services.
 |          [ Shipment ](./pages/shipment.md)           |
 |          [ GiftCard ](./pages/giftcard.md)           |
 |          [ Discount ](./pages/discount.md)           |
+|            [ Brand ](./pages/brand.md)               |
+|            [ Bundle ](./pages/bundle.md)             |
+|            [ Comment ](./pages/comment.md)           |
+|            [ Media ](./pages/media.md)               |
+|            [ Product ](./pages/product.md)           |
+|            [ ProductAlert ](./pages/productalert.md) |
+|      [ ProductCategory ](./pages/productcategory.md) |
+|          [ Review ](./pages/review.md)               |
 
 ## Database Management Plan
 
